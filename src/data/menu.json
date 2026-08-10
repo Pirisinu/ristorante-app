@@ -4,21 +4,6 @@
       "nome": "Antipasti",
       "piatti": [
         {
-          "nome": "Bruschetta al Pomodoro",
-          "descrizione": "Pane casereccio tostato con pomodori freschi, basilico e olio EVO",
-          "prezzo": "8.50"
-        },
-        {
-          "nome": "Carpaccio di Manzo",
-          "descrizione": "Sottile carpaccio di manzo con rucola, parmigiano reggiano e limone",
-          "prezzo": "14"
-        },
-        {
-          "nome": "Burrata con Prosciutto",
-          "descrizione": "Burrata pugliese cremosa, prosciutto crudo di Parma e pomodori datterini",
-          "prezzo": "16"
-        },
-        {
           "nome": "Antipasto Italiano",
           "descrizione": "Salumi artigianali, accompagnato da verdure grigliate, olive e fresche ciliegine di mozzarella.",
           "prezzo": "12"
@@ -53,21 +38,6 @@
     {
       "nome": "Primi",
       "piatti": [
-        {
-          "nome": "Tagliatelle al Ragù di Cinghiale",
-          "descrizione": "Pasta fresca all'uovo con ragù di cinghiale selvatico cotto lentamente.",
-          "prezzo": "18"
-        },
-        {
-          "nome": "Risotto ai Funghi Porcini",
-          "descrizione": "Riso Carnaroli mantecato con porcini freschi, profumo di bosco e parmigiano.",
-          "prezzo": "22"
-        },
-        {
-          "nome": "Tonnarelli Cacio e Pepe",
-          "descrizione": "Tonnarelli all'uovo con pecorino romano DOP e pepe nero.",
-          "prezzo": "15"
-        },
         {
           "nome": "Fettuccine ai Porcini",
           "descrizione": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
@@ -118,21 +88,6 @@
     {
       "nome": "Secondi",
       "piatti": [
-        {
-          "nome": "Stinco di Maiale al Forno",
-          "descrizione": "Stinco di maiale cotto a bassa temperatura con erbe del bosco e bacche di ginepro.",
-          "prezzo": "20"
-        },
-        {
-          "nome": "Tagliata di Manzo",
-          "descrizione": "Tagliata di controfiletto con rucola e scaglie di parmigiano.",
-          "prezzo": "32"
-        },
-        {
-          "nome": "Pollo alla Cacciatora",
-          "descrizione": "Pollo ruspante brasato con pomodoro, olive e vino rosso.",
-          "prezzo": "22"
-        },
         {
           "nome": "Filetto ai ferri",
           "descrizione": "Controfiletto di manzo nazionale grigliato su carboni.",
@@ -197,6 +152,41 @@
           "nome": "Salsicce alla griglia",
           "descrizione": "Coppia di salsicce di suino artigianali alla brace.",
           "prezzo": "8"
+        }
+      ]
+    },
+    {
+      "nome": "Contorni",
+      "piatti": [
+        {
+          "nome": "Insalata",
+          "descrizione": "Insalata con olio extravergine d'oliva.",
+          "prezzo": "4"
+        },
+        {
+          "nome": "Patate al forno",
+          "descrizione": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
+          "prezzo": "5"
+        },
+        {
+          "nome": "Cicoria",
+          "descrizione": "Verdura di stagione saltata in padella con aglio e olio.",
+          "prezzo": "5"
+        },
+        {
+          "nome": "Porcini arrosto",
+          "descrizione": "Funghi porcini freschi arrostiti con olio e prezzemolo.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Peperoni",
+          "descrizione": "Peperoni grigliati con olio e prezzemolo.",
+          "prezzo": "5"
+        },
+        {
+          "nome": "Carciofi di stagione",
+          "descrizione": "Carciofi di stagione cotti in padella con aglio e olio.",
+          "prezzo": "5"
         }
       ]
     },
