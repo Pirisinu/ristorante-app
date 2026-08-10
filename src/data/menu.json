@@ -4,154 +4,252 @@
       "nome": "Antipasti",
       "piatti": [
         {
-          "nome": "Antipasto Italiano",
+          "nome": "Antipasto Misto All'Italiana",
           "descrizione": "Salumi artigianali, accompagnato da verdure grigliate, olive e fresche ciliegine di mozzarella.",
-          "prezzo": "12"
+          "descrizione-it": "Salumi artigianali, accompagnato da verdure grigliate, olive e fresche ciliegine di mozzarella.",
+          "prezzo": "10"
         },
         {
-          "nome": "Antipasto Completo",
+          "nome": "Antipasto Completo Della Casa",
           "descrizione": "Salumi artigianali, trippa alla romana, fagioli con salsiccia e verdure grigliate.",
-          "prezzo": "14"
+          "descrizione-it": "Salumi artigianali, trippa alla romana, fagioli con salsiccia e verdure grigliate.",
+          "prezzo": "13"
         },
         {
-          "nome": "Ortaggi Grigliati Misti",
+          "nome": "Ortaggi Grigliati",
           "descrizione": "Il sapore autentico dell'orto: zucchine, melanzane, peperoni e verza grigliati.",
+          "descrizione-it": "Il sapore autentico dell'orto: zucchine, melanzane, peperoni e verza grigliati.",
           "prezzo": "8"
         },
         {
           "nome": "Prosciutto & Mozzarella di Bufala",
           "descrizione": "Prosciutto crudo d'alta qualità servito con mozzarella di bufala fresca.",
-          "prezzo": "10"
+          "descrizione-it": "Prosciutto crudo d'alta qualità servito con mozzarella di bufala fresca.",
+          "prezzo": "12"
         },
         {
-          "nome": "Prosciutto, Melone e Fichi (stagionale)",
+          "nome": "Melone e Fichi (stagionale)",
           "descrizione": "Sinfonia dolce-salata di Prosciutto Crudo, melone e fichi dolci.",
-          "prezzo": "14"
-        },
-        {
-          "nome": "Formaggi Assortiti",
-          "descrizione": "Selezione di taleggi, primosale e ciliegine di mozzarella.",
-          "prezzo": "8"
+          "descrizione-it": "Sinfonia dolce-salata di Prosciutto Crudo, melone e fichi dolci.",
+          "prezzo": "12"
         }
       ]
     },
     {
-      "nome": "Primi",
+      "nome": "Le Bruschette",
+      "piatti": [
+        {
+          "nome": "Bruschetta Al Pomodoro",
+          "descrizione": "Pane tostato con pomodoro, aglio e olio extravergine d'oliva.",
+          "descrizione-it": "Pane tostato con pomodoro, aglio e olio extravergine d'oliva.",
+          "prezzo": "2.50"
+        },
+        {
+          "nome": "Bruschetta Al Prosciutto",
+          "descrizione": "Pane tostato con prosciutto crudo",
+          "descrizione-it": "Pane tostato con prosciutto crudo",
+          "prezzo": "3"
+        },
+        {
+          "nome": "Bruschetta Ai Funghi Porcini",
+          "descrizione": "Pane tostato con funghi porcini trifolati e prezzemolo.",
+          "descrizione-it": "Pane tostato con funghi porcini trifolati e prezzemolo.",
+          "prezzo": "5"
+        },
+        {
+          "nome": "Bruschetta Semplice",
+          "descrizione": "Pane tostato con olio e sale.",
+          "descrizione-it": "Pane tostato con olio e sale.",
+          "prezzo": "1"
+        }
+      ]
+    },
+    {
+      "nome": "Fritti",
+      "piatti": [
+        {
+          "nome": "Suppli",
+          "descrizione": "Zuppa calda di fagioli cannellini con crostini di pane.",
+          "descrizione-it": "Zuppa calda di fagioli cannellini con crostini di pane.",
+          "prezzo": "6"
+        },
+        {
+          "nome": "Fiori Di Zucca",
+          "descrizione": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
+          "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
+          "prezzo": "6"
+        },
+        {
+          "nome": "Filetto Di Baccalà",
+          "descrizione": "Filetto di baccalà fritto con aglio e limone.",
+          "descrizione-it": "Filetto di baccalà fritto con aglio e limone.",
+          "prezzo": "7"
+        }
+      ]
+    },
+    {
+      "nome": "I Primi Piatti",
       "piatti": [
         {
           "nome": "Fettuccine ai Porcini",
           "descrizione": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
+          "descrizione-it": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
           "prezzo": "14"
         },
         {
-          "nome": "Fettuccine Pachino e Finferli",
-          "descrizione": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
-          "prezzo": "14"
-        },
-        {
-          "nome": "Gricia",
-          "descrizione": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
-          "prezzo": "13"
-        },
-        {
-          "nome": "Gricia con carciofi (stagionale)",
-          "descrizione": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
+          "nome": "Fettuccine al cinghiale",
+          "descrizione": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
+          "descrizione-it": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
           "prezzo": "14"
         },
         {
           "nome": "Pappardelle alla lepre",
           "descrizione": "Pasta larga all'uovo con sugo di lepre e aromi selvatici.",
-          "prezzo": "12"
-        },
-        {
-          "nome": "Fettuccine al cinghiale",
-          "descrizione": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
-          "prezzo": "12"
-        },
-        {
-          "nome": "Raviolo prosciutto e spinaci",
-          "descrizione": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
-          "prezzo": "13"
+          "descrizione-it": "Pasta larga all'uovo con sugo di lepre e aromi selvatici.",
+          "prezzo": "14"
         },
         {
           "nome": "Boscarelli ai funghi porcini",
           "descrizione": "Pasta corta tipica con crema di porcini e scaglie di pecorino.",
-          "prezzo": "15"
+          "descrizione-it": "Pasta corta tipica con crema di porcini e scaglie di pecorino.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Ravioli prosciutto e spinaci",
+          "descrizione": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
+          "descrizione-it": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
+          "prezzo": "13"
         },
         {
           "nome": "Riso ai funghi porcini",
           "descrizione": "Risotto mantecato con funghi porcini e burro d'alpeggio.",
+          "descrizione-it": "Risotto mantecato con funghi porcini e burro d'alpeggio.",
           "prezzo": "14"
+        },
+        {
+          "nome": "Fettuccine Pachino e Finferli (Funghi Galletti di stagione)",
+          "descrizione": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
+          "descrizione-it": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Fettuccine Alla Gricia con carciofi (stagionale)",
+          "descrizione": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
+          "descrizione-it": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Fettuccine Gricia",
+          "descrizione": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
+          "descrizione-it": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
+          "prezzo": "13"
         }
       ]
     },
     {
-      "nome": "Secondi",
+      "nome": "Secondi Piatti",
       "piatti": [
         {
-          "nome": "Filetto ai ferri",
+          "nome": "Bistecca Ai ferri",
           "descrizione": "Controfiletto di manzo nazionale grigliato su carboni.",
-          "prezzo": "24"
+          "descrizione-it": "Controfiletto di manzo nazionale grigliato su carboni.",
+          "prezzo": "20"
         },
         {
-          "nome": "Filetto con porcini",
-          "descrizione": "Filetto di manzo grigliato guarnito con porcini trifolati.",
-          "prezzo": "29"
-        },
-        {
-          "nome": "Petto di pollo alla griglia",
-          "descrizione": "Petto di pollo ruspante cotto alla brace.",
-          "prezzo": "12"
-        },
-        {
-          "nome": "Bistecca di manzo",
-          "descrizione": "Bistecca di manzo ai ferri con sale grosso e rosmarino.",
-          "prezzo": "22"
-        },
-        {
-          "nome": "Lombata di vitello",
-          "descrizione": "Lombata di vitello grigliata.",
-          "prezzo": "15"
-        },
-        {
-          "nome": "Galletto alla griglia",
-          "descrizione": "Galletto intero speziato e cotto sulla brace.",
-          "prezzo": "12"
-        },
-        {
-          "nome": "Tagliata di Manzo Rucola e Grana",
-          "descrizione": "Controfiletto affettato con rucola e scaglie di Grana Padano.",
-          "prezzo": "18"
-        },
-        {
-          "nome": "Tagliata di Manzo con porcini",
-          "descrizione": "Tagliata di manzo servita con funghi porcini freschi.",
+          "nome": "Filetto Ai ferri",
+          "descrizione": "Controfiletto di manzo nazionale grigliato su carboni.",
+          "descrizione-it": "Controfiletto di manzo nazionale grigliato su carboni.",
           "prezzo": "25"
         },
         {
           "nome": "Abbacchio scottadito",
           "descrizione": "Costolette d'agnello alla griglia, da mangiare caldissime.",
+          "descrizione-it": "Costolette d'agnello alla griglia, da mangiare caldissime.",
           "prezzo": "15"
         },
         {
-          "nome": "Grigliata di carne",
-          "descrizione": "Misto di carni selezionate alla brace (salsiccia, pollo, manzo).",
-          "prezzo": "15"
-        },
-        {
-          "nome": "Coniglio alla cacciatora",
+          "nome": "Coniglio Alla cacciatora",
           "descrizione": "Coniglio brasato con olive, rosmarino e vino bianco.",
-          "prezzo": "12"
-        },
-        {
-          "nome": "Cinghiale grigliato",
-          "descrizione": "Costolette di cinghiale marinate e grigliate alla brace.",
+          "descrizione-it": "Coniglio brasato con olive, rosmarino e vino bianco.",
           "prezzo": "14"
         },
         {
-          "nome": "Salsicce alla griglia",
+          "nome": "Galletto Alla Diavola",
+          "descrizione": "Galletto intero speziato e cotto sulla brace.",
+          "descrizione-it": "Galletto intero speziato e cotto sulla brace.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Filetto Ai Funghi Porcini",
+          "descrizione": "Filetto di manzo grigliato guarnito con porcini trifolati.",
+          "descrizione-it": "Filetto di manzo grigliato guarnito con porcini trifolati.",
+          "prezzo": "30"
+        },
+        {
+          "nome": "Grigliata Di Carne",
+          "descrizione": "Misto di carni selezionate alla brace (salsiccia, pollo, manzo).",
+          "descrizione-it": "Misto di carni selezionate alla brace (salsiccia, pollo, manzo).",
+          "prezzo": "15"
+        },
+        {
+          "nome": "Lombata Di Vitello",
+          "descrizione": "Lombata di vitello grigliata.",
+          "descrizione-it": "Lombata di vitello grigliata.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Petto Di Pollo Alla Griglia",
+          "descrizione": "Petto di pollo ruspante cotto alla brace.",
+          "descrizione-it": "Petto di pollo ruspante cotto alla brace.",
+          "prezzo": "12"
+        },
+        {
+          "nome": "Tagliata Di Manzo",
+          "descrizione": "Bistecca di manzo ai ferri con sale grosso e rosmarino.",
+          "descrizione-it": "Bistecca di manzo ai ferri con sale grosso e rosmarino.",
+          "prezzo": "18"
+        },
+        {
+          "nome": "Tagliata Di Manzo Con Porcini Di Stagione",
+          "descrizione": "Bistecca di manzo ai ferri con funghi porcini di stagione.",
+          "descrizione-it": "Bistecca di manzo ai ferri con funghi porcini di stagione.",
+          "prezzo": "25"
+        },
+        {
+          "nome": "Salsicce Alla Griglia",
           "descrizione": "Coppia di salsicce di suino artigianali alla brace.",
+          "descrizione-it": "Coppia di salsicce di suino artigianali alla brace.",
           "prezzo": "8"
+        },
+        {
+          "nome": "Cinghiale Grigliato",
+          "descrizione": "Costolette di cinghiale marinate e grigliate alla brace.",
+          "descrizione-it": "Costolette di cinghiale marinate e grigliate alla brace.",
+          "prezzo": "14"
+        },
+        {
+          "nome": "Coda Alla Vaccinara",
+          "descrizione": "Coda di bue brasata con pomodoro, sedano e carote.",
+          "descrizione-it": "Coda di bue brasata con pomodoro, sedano e carote.",
+          "prezzo": "18"
+        },
+        {
+          "nome": "Piccione Alla Cacciatora",
+          "descrizione": "Piccione ruspante cotto in umido con olive e aromi.",
+          "descrizione-it": "Piccione ruspante cotto in umido con olive e aromi.",
+          "prezzo": "18"
+        },
+        {
+          "nome": "Porcini Arrosto",
+          "descrizione": "Tagliata di manzo servita con funghi porcini freschi.",
+          "descrizione-it": "Tagliata di manzo servita con funghi porcini freschi.",
+          "prezzo": "15"
+        },
+        {
+          "nome": "Galletto Alla Diana",
+          "descrizione": "Galletto intero speziato e cotto sulla brace, servito con contorno di verdure.",
+          "descrizione-it": "Galletto intero speziato e cotto sulla brace, servito con contorno di verdure.",
+          "prezzo": "15"
         }
       ]
     },
@@ -161,32 +259,32 @@
         {
           "nome": "Insalata",
           "descrizione": "Insalata con olio extravergine d'oliva.",
+          "descrizione-it": "Insalata con olio extravergine d'oliva.",
           "prezzo": "4"
         },
         {
-          "nome": "Patate al forno",
-          "descrizione": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
-          "prezzo": "5"
-        },
-        {
-          "nome": "Cicoria",
+          "nome": "Cicoria Ripassata",
           "descrizione": "Verdura di stagione saltata in padella con aglio e olio.",
-          "prezzo": "5"
+          "descrizione-it": "Verdura di stagione saltata in padella con aglio e olio.",
+          "prezzo": "6"
         },
         {
-          "nome": "Porcini arrosto",
-          "descrizione": "Funghi porcini freschi arrostiti con olio e prezzemolo.",
-          "prezzo": "14"
+          "nome": "Patate al forno (Sabato e Domenica)",
+          "descrizione": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
+          "descrizione-it": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
+          "prezzo": "5"
         },
         {
           "nome": "Peperoni",
           "descrizione": "Peperoni grigliati con olio e prezzemolo.",
+          "descrizione-it": "Peperoni grigliati con olio e prezzemolo.",
           "prezzo": "5"
         },
         {
-          "nome": "Carciofi di stagione",
+          "nome": "Carciofi alla Romana",
           "descrizione": "Carciofi di stagione cotti in padella con aglio e olio.",
-          "prezzo": "5"
+          "descrizione-it": "Carciofi di stagione cotti in padella con aglio e olio.",
+          "prezzo": "6"
         }
       ]
     },
@@ -194,54 +292,115 @@
       "nome": "Dessert",
       "piatti": [
         {
-          "nome": "Tiramisù Classico",
-          "descrizione": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
-          "prezzo": "9"
+          "nome": "Fragoline Di Bosco Con Panna",
+          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "prezzo": "7"
         },
-        {
-          "nome": "Panna Cotta ai Frutti di Bosco",
-          "descrizione": "Panna cotta artigianale con coulis di lamponi e fragole.",
-          "prezzo": "8"
-        },
-        {
-          "nome": "Crostatina crema e fragoline",
-          "descrizione": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
+                {
+          "nome": "Fragoline Di Bosco Con Gelato",
+          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
           "prezzo": "7"
         },
         {
-          "nome": "Tiramisù della Casa",
-          "descrizione": "Versione classica del dolce al cucchiaio più amato.",
-          "prezzo": "6"
+          "nome": "Fragoline Di Bosco Con Zucchero e Limone",
+          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "prezzo": "6.5"
         },
         {
-          "nome": "Tiramisù con fragoline",
-          "descrizione": "Tiramisù bianco con fragoline di bosco fresche.",
-          "prezzo": "7"
+          "nome": "Fragoline Di Bosco Con Liquore Maraschino",
+          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "prezzo": "6.5"
         },
         {
           "nome": "Panna cotta",
           "descrizione": "Panna cotta classica servita con caramello o cioccolato.",
-          "prezzo": "6.50"
+          "descrizione-it": "Panna cotta classica servita con caramello o cioccolato.",
+          "prezzo": "6"
         },
         {
-          "nome": "Panna cotta con fragoline",
-          "descrizione": "Panna cotta guarnita con fragoline di bosco profumate.",
+          "nome": "Tiramisù",
+          "descrizione": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
+          "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
+          "prezzo": "6"
+        },
+        {
+          "nome": "Tiramisù Alle Fragoline",
+          "descrizione": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
+          "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
           "prezzo": "7"
         },
         {
-          "nome": "Fragoline di bosco",
-          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
-          "prezzo": "7"
+          "nome": "Crostata crema e fragoline",
+          "descrizione": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
+          "descrizione-it": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
+          "prezzo": "6"
         }
       ]
     },
     {
-      "nome": "Bevande",
+      "nome": "Bibite",
       "piatti": [
         {
-          "nome": "Vino della Casa",
-          "descrizione": "Selezione di vini rossi e bianchi della nostra cantina.",
-          "prezzo": "6"
+          "nome": "Acqua Minerale(Naturale o Frizzante)",
+          "descrizione": "Acqua minerale naturale o frizzante.",
+          "descrizione-it": "Acqua minerale naturale o frizzante.",
+          "prezzo": "2"
+        },
+        {
+          "nome": "Coca-Cola / Fanta / Sprite",
+          "descrizione": "Selezione di bibite in lattina.",
+          "descrizione-it": "Selezione di bibite in lattina.",
+          "prezzo": "3"
+        },
+        {
+          "nome": "Succo Di Frutta",
+          "descrizione": "Selezione di succo di frutta naturale.",
+          "descrizione-it": "Selezione di succo di frutta naturale.",
+          "prezzo": "3"
+        },
+        {
+          "nome": "Birra alla spina (Media)",
+          "descrizione": "Birra chiara o scura alla spina.",
+          "descrizione-it": "Birra chiara o scura alla spina.",
+          "prezzo": "5"
+        },
+        {
+          "nome": "Birra alla spina (Grande)",
+          "descrizione": "Birra chiara o scura alla spina.",
+          "descrizione-it": "Birra chiara o scura alla spina.",
+          "prezzo": "7"
+        },
+        {
+          "nome": "Amaro / Digestivo",
+          "descrizione": "Selezione di amari e digestivi della nostra cantina.",
+          "descrizione-it": "Selezione di amari e digestivi della nostra cantina.",
+          "prezzo": "4"
+        },
+        {
+          "nome": "Limoncello",
+          "descrizione": "Limoncello della nostra cantina.",
+          "descrizione-it": "Limoncello della nostra cantina.",
+          "prezzo": "4"
+        },
+        {
+          "nome": "Caffe",
+          "descrizione": "Caffè espresso o americano.",
+          "descrizione-it": "Caffè espresso o americano.",
+          "prezzo": "1.5"
+        }
+      ]
+    },
+    {
+      "nome": "Servizio",
+      "piatti": [
+        {
+          "nome": "Servizio",
+          
+          "prezzo": "2"
         }
       ]
     }
