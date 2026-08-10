@@ -5,33 +5,43 @@
       "piatti": [
         {
           "nome": "Antipasto Misto All'Italiana",
-          "descrizione": "Salumi artigianali, accompagnato da verdure grigliate, olive e fresche ciliegine di mozzarella.",
+          "descrizione": "Mixed Italian appetizer | Gemischet italienische Vorspeise",
           "descrizione-it": "Salumi artigianali, accompagnato da verdure grigliate, olive e fresche ciliegine di mozzarella.",
-          "prezzo": "10"
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Antipasto Completo Della Casa",
-          "descrizione": "Salumi artigianali, trippa alla romana, fagioli con salsiccia e verdure grigliate.",
+          "descrizione": "Complete house appetizer - mixed cold cuts and vegetables with traditional Roman Tastings | Komplette Hausvorspeisenplatte – gemischter Aufschnitt und Gemüse mit traditionellen römischen Beilagen",
           "descrizione-it": "Salumi artigianali, trippa alla romana, fagioli con salsiccia e verdure grigliate.",
-          "prezzo": "13"
+          "prezzo": "13",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Ortaggi Grigliati",
-          "descrizione": "Il sapore autentico dell'orto: zucchine, melanzane, peperoni e verza grigliati.",
-          "descrizione-it": "Il sapore autentico dell'orto: zucchine, melanzane, peperoni e verza grigliati.",
-          "prezzo": "8"
+          "descrizione": "Grilled vegetables | Gegrilltes Gemüse",
+          "descrizione-it": "Il sapore autentico dell'orto: zucchine, melanzane, peperoni e verza grigliati",
+          "prezzo": "8",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Prosciutto & Mozzarella di Bufala",
-          "descrizione": "Prosciutto crudo d'alta qualità servito con mozzarella di bufala fresca.",
+          "descrizione": "Parma ham and buffalo mozzarella | Parmaschinken und Büffelmozzarella",
           "descrizione-it": "Prosciutto crudo d'alta qualità servito con mozzarella di bufala fresca.",
-          "prezzo": "12"
+          "prezzo": "12",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Melone e Fichi (stagionale)",
-          "descrizione": "Sinfonia dolce-salata di Prosciutto Crudo, melone e fichi dolci.",
+          "descrizione": "Melon and seasonal figs | Melone und saisonale Feigen",
           "descrizione-it": "Sinfonia dolce-salata di Prosciutto Crudo, melone e fichi dolci.",
-          "prezzo": "12"
+          "prezzo": "12",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -40,27 +50,35 @@
       "piatti": [
         {
           "nome": "Bruschetta Al Pomodoro",
-          "descrizione": "Pane tostato con pomodoro, aglio e olio extravergine d'oliva.",
+          "descrizione": "Bruschetta with tomato, garlic and extra virgin olive oil | Bruschetta mit Tomaten, Knoblauch und nativem Olivenöl extra",
           "descrizione-it": "Pane tostato con pomodoro, aglio e olio extravergine d'oliva.",
-          "prezzo": "2.50"
+          "prezzo": "2.50",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Bruschetta Al Prosciutto",
-          "descrizione": "Pane tostato con prosciutto crudo",
+          "descrizione": "Bruschetta with Parma ham | Bruschetta mit Parmaschinken",
           "descrizione-it": "Pane tostato con prosciutto crudo",
-          "prezzo": "3"
+          "prezzo": "3",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Bruschetta Ai Funghi Porcini",
-          "descrizione": "Pane tostato con funghi porcini trifolati e prezzemolo.",
+          "descrizione": "Bruschetta with porcini mushrooms | Bruschetta mit Steinpilzen",
           "descrizione-it": "Pane tostato con funghi porcini trifolati e prezzemolo.",
-          "prezzo": "5"
+          "prezzo": "5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Bruschetta Semplice",
-          "descrizione": "Pane tostato con olio e sale.",
+          "descrizione": "Plain bruschetta with olive oil and salt | Einfache Bruschetta mit Olivenöl und Salz",
           "descrizione-it": "Pane tostato con olio e sale.",
-          "prezzo": "1"
+          "prezzo": "1",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -69,21 +87,27 @@
       "piatti": [
         {
           "nome": "Suppli",
-          "descrizione": "Zuppa calda di fagioli cannellini con crostini di pane.",
-          "descrizione-it": "Zuppa calda di fagioli cannellini con crostini di pane.",
-          "prezzo": "6"
+          "descrizione": "Rice croquette with mozzarella and tomato sauce | Reiskroketten mit Mozzarella und Tomatensauce",
+          "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fiori Di Zucca",
-          "descrizione": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
-          "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
-          "prezzo": "6"
+          "descrizione": "Fried courgette flowers | Frittierte Zucchiniblüten",
+          "descrizione-it": "Fiori di zucca fritti",
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Filetto Di Baccalà",
-          "descrizione": "Filetto di baccalà fritto con aglio e limone.",
+          "descrizione": "Fried salt cod fillet | Frittiertes Kabeljaufilet",
           "descrizione-it": "Filetto di baccalà fritto con aglio e limone.",
-          "prezzo": "7"
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -92,57 +116,75 @@
       "piatti": [
         {
           "nome": "Fettuccine ai Porcini",
-          "descrizione": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
+          "descrizione": "Fettuccine with porcini mushrooms | Fettuccine mit Steinpilzen",
           "descrizione-it": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fettuccine al cinghiale",
-          "descrizione": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
+          "descrizione": "Fettuccine with wild boar | Fettuccine mit Wildschwein",
           "descrizione-it": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Pappardelle alla lepre",
-          "descrizione": "Pasta larga all'uovo con sugo di lepre e aromi selvatici.",
+          "descrizione": "Pasta with hare sauce | Pasta mit Hasensauce",
           "descrizione-it": "Pasta larga all'uovo con sugo di lepre e aromi selvatici.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Boscarelli ai funghi porcini",
-          "descrizione": "Pasta corta tipica con crema di porcini e scaglie di pecorino.",
+          "descrizione": "Boscarelli with porcini mushrooms | Boscarelli mit Steinpilzen",
           "descrizione-it": "Pasta corta tipica con crema di porcini e scaglie di pecorino.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Ravioli prosciutto e spinaci",
-          "descrizione": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
+          "descrizione": "Ravioli with ham and spinach | Ravioli mit Schinken und Spinat",
           "descrizione-it": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
-          "prezzo": "13"
+          "prezzo": "13",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Riso ai funghi porcini",
-          "descrizione": "Risotto mantecato con funghi porcini e burro d'alpeggio.",
+          "descrizione": "Rice with porcini mushrooms | Reis mit Steinpilzen",
           "descrizione-it": "Risotto mantecato con funghi porcini e burro d'alpeggio.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fettuccine Pachino e Finferli (Funghi Galletti di stagione)",
-          "descrizione": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
+          "descrizione": "Fettuccine with chanterelle mushrooms and cherry tomatoes | Fettuccine mit Pfifferlingen und Kirschtomaten",
           "descrizione-it": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fettuccine Alla Gricia con carciofi (stagionale)",
-          "descrizione": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
+          "descrizione": "Gricia's Fettuccine seasonal artichokes | Fettuccine alla Gricia Artischocken der Saison",
           "descrizione-it": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fettuccine Gricia",
-          "descrizione": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
+          "descrizione": "Fettuccine Gricia with guanciale, pecorino and black pepper | Fettuccine Gricia mit Guanciale, Pecorino und schwarzem Pfeffer",
           "descrizione-it": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
-          "prezzo": "13"
+          "prezzo": "13",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -151,105 +193,264 @@
       "piatti": [
         {
           "nome": "Bistecca Ai ferri",
-          "descrizione": "Controfiletto di manzo nazionale grigliato su carboni.",
+          "descrizione": "Grilled steak | Gegrilltes Steak",
           "descrizione-it": "Controfiletto di manzo nazionale grigliato su carboni.",
-          "prezzo": "20"
+          "prezzo": "20",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Filetto Ai ferri",
-          "descrizione": "Controfiletto di manzo nazionale grigliato su carboni.",
+          "descrizione": "Grilled fillet | Gegrilltes Filet",
           "descrizione-it": "Controfiletto di manzo nazionale grigliato su carboni.",
-          "prezzo": "25"
+          "prezzo": "25",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Abbacchio scottadito",
-          "descrizione": "Costolette d'agnello alla griglia, da mangiare caldissime.",
+          "descrizione": "Grilled lamb chops | Gegrillte Lammkoteletts",
           "descrizione-it": "Costolette d'agnello alla griglia, da mangiare caldissime.",
-          "prezzo": "15"
+          "prezzo": "15",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Coniglio Alla cacciatora",
-          "descrizione": "Coniglio brasato con olive, rosmarino e vino bianco.",
+          "descrizione": "Hunter's rabbit | Hasenragout nach Jägerart",
           "descrizione-it": "Coniglio brasato con olive, rosmarino e vino bianco.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Galletto Alla Diavola",
-          "descrizione": "Galletto intero speziato e cotto sulla brace.",
+          "descrizione": "Spicy grilled chicken | Hähnchen Alla Diavola",
           "descrizione-it": "Galletto intero speziato e cotto sulla brace.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Filetto Ai Funghi Porcini",
-          "descrizione": "Filetto di manzo grigliato guarnito con porcini trifolati.",
+          "descrizione": "Fillet whit porcini mushrooms | Filet mit Steinpilzen",
           "descrizione-it": "Filetto di manzo grigliato guarnito con porcini trifolati.",
-          "prezzo": "30"
+          "prezzo": "30",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
-          "nome": "Grigliata Di Carne",
-          "descrizione": "Misto di carni selezionate alla brace (salsiccia, pollo, manzo).",
+          "nome": "Grigliata Mista",
+          "descrizione": "Mixed grill | Gemischter Grill",
           "descrizione-it": "Misto di carni selezionate alla brace (salsiccia, pollo, manzo).",
-          "prezzo": "15"
+          "prezzo": "15",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Lombata Di Vitello",
-          "descrizione": "Lombata di vitello grigliata.",
+          "descrizione": "Veal loin | Kalbslende",
           "descrizione-it": "Lombata di vitello grigliata.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Petto Di Pollo Alla Griglia",
-          "descrizione": "Petto di pollo ruspante cotto alla brace.",
+          "descrizione": "Grilled chicken breast | Gegrillte Hühnerbrust",
           "descrizione-it": "Petto di pollo ruspante cotto alla brace.",
-          "prezzo": "12"
+          "prezzo": "12",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Tagliata Di Manzo",
-          "descrizione": "Bistecca di manzo ai ferri con sale grosso e rosmarino.",
+          "descrizione": "Sliced beef steak | Geschnittenes Rindersteak",
           "descrizione-it": "Bistecca di manzo ai ferri con sale grosso e rosmarino.",
-          "prezzo": "18"
+          "prezzo": "18",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Tagliata Di Manzo Con Porcini Di Stagione",
-          "descrizione": "Bistecca di manzo ai ferri con funghi porcini di stagione.",
+          "descrizione": "Sliced beef steak with seasonal porcini mushrooms | Rindersteak mit Steinpilzen der Saison",
           "descrizione-it": "Bistecca di manzo ai ferri con funghi porcini di stagione.",
-          "prezzo": "25"
+          "prezzo": "25",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
-          "nome": "Salsicce Alla Griglia",
-          "descrizione": "Coppia di salsicce di suino artigianali alla brace.",
+          "nome": "Salsiccia",
+          "descrizione": "Sausage | Wurst",
           "descrizione-it": "Coppia di salsicce di suino artigianali alla brace.",
-          "prezzo": "8"
+          "prezzo": "8",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Cinghiale Grigliato",
-          "descrizione": "Costolette di cinghiale marinate e grigliate alla brace.",
+          "descrizione": "Wild boar | Wildschewein",
           "descrizione-it": "Costolette di cinghiale marinate e grigliate alla brace.",
-          "prezzo": "14"
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Coda Alla Vaccinara",
-          "descrizione": "Coda di bue brasata con pomodoro, sedano e carote.",
+          "descrizione": "Oxtail stew | Ochsenschwanz-Eintopf",
           "descrizione-it": "Coda di bue brasata con pomodoro, sedano e carote.",
-          "prezzo": "18"
+          "prezzo": "18",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Piccione Alla Cacciatora",
-          "descrizione": "Piccione ruspante cotto in umido con olive e aromi.",
+          "descrizione": "Hunters' pigeon | Taube nach Jägerart",
           "descrizione-it": "Piccione ruspante cotto in umido con olive e aromi.",
-          "prezzo": "18"
+          "prezzo": "18",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Porcini Arrosto",
-          "descrizione": "Tagliata di manzo servita con funghi porcini freschi.",
+          "descrizione": "Roasted porcini mushrooms | Gebratene Steinpilze",
           "descrizione-it": "Tagliata di manzo servita con funghi porcini freschi.",
-          "prezzo": "15"
+          "prezzo": "15",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Galletto Alla Diana",
-          "descrizione": "Galletto intero speziato e cotto sulla brace, servito con contorno di verdure.",
+          "descrizione": "Grilled young rooster | Junger Hahn nach Art der Diana",
           "descrizione-it": "Galletto intero speziato e cotto sulla brace, servito con contorno di verdure.",
-          "prezzo": "15"
+          "prezzo": "15",
+          "isDisponibile": true,
+          "allergeni": []
+        }
+      ]
+    },
+    {
+      "nome": "Le Pizze",
+      "piatti": [
+        {
+          "nome": "Napoletana",
+          "descrizione": "Neapolitan pizza | Neapolitanische Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "8",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Margherita",
+          "descrizione": "Margherita pizza | Margherita-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Capricciosa",
+          "descrizione": "Capricciosa pizza | Capricciosa-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "9",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Norcina con Porcini",
+          "descrizione": "Norcina with porcini mushrooms | Norcina mit Steinpilzen",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "14",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Norcina",
+          "descrizione": "Norcina pizza (sausage & mozzarella) | Norcina-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Boscaiola",
+          "descrizione": "Woodsman pizza (mushrooms & sausage) | Boscaiola-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Funghi Porcini",
+          "descrizione": "Porcini mushroom pizza | Steinpilz-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "13",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Funghi Champignon",
+          "descrizione": "Champignon mushroom pizza | Champignon-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "9",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Diavola",
+          "descrizione": "Spicy salami pizza | Scharfe Salami-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Gorgonzola",
+          "descrizione": "Gorgonzola cheese pizza | Gorgonzola-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "9",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Quattro Formaggi",
+          "descrizione": "Four cheese pizza | Vier-Käse-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "9",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Melanzane",
+          "descrizione": "Aubergine pizza | Auberginen-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "9",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Focaccia",
+          "descrizione": "Focaccia bread | Focaccia",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "4",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Rucola, prosciutto e parmiggiano",
+          "descrizione": "Rocket, ham and parmesan pizza | Rucola, Schinken und Parmesan-Pizza",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
+        },
+        {
+          "nome": "Contadina (Pomodoro, mozzarella, cipolla e pancetta)",
+          "descrizione": "Country-style pizza (tomato, mozzarella, onion and bacon) | Contadina-Pizza (Tomate, Mozzarella, Zwiebel und Speck)",
+          "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
+          "prezzo": "10",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -258,33 +459,43 @@
       "piatti": [
         {
           "nome": "Insalata",
-          "descrizione": "Insalata con olio extravergine d'oliva.",
+          "descrizione": "Salad | Salat",
           "descrizione-it": "Insalata con olio extravergine d'oliva.",
-          "prezzo": "4"
+          "prezzo": "4",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Cicoria Ripassata",
-          "descrizione": "Verdura di stagione saltata in padella con aglio e olio.",
+          "descrizione": "Sauteed chicory with garlic and olive oil | Gebratener Chicorée mit Knoblauch und Olivenöl",
           "descrizione-it": "Verdura di stagione saltata in padella con aglio e olio.",
-          "prezzo": "6"
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Patate al forno (Sabato e Domenica)",
-          "descrizione": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
+          "descrizione": "Roast potatoes (Sat and Sun) | Bratkartoffeln (Sa und So)",
           "descrizione-it": "Patate cotte al forno con rosmarino e olio extravergine d'oliva.",
-          "prezzo": "5"
+          "prezzo": "5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Peperoni",
-          "descrizione": "Peperoni grigliati con olio e prezzemolo.",
+          "descrizione": "Peppers | Paprika",
           "descrizione-it": "Peperoni grigliati con olio e prezzemolo.",
-          "prezzo": "5"
+          "prezzo": "5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Carciofi alla Romana",
-          "descrizione": "Carciofi di stagione cotti in padella con aglio e olio.",
+          "descrizione": "Roman-style artichokes | Artischocken nach römischer Art",
           "descrizione-it": "Carciofi di stagione cotti in padella con aglio e olio.",
-          "prezzo": "6"
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -293,51 +504,67 @@
       "piatti": [
         {
           "nome": "Fragoline Di Bosco Con Panna",
-          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione": "Wild strawberries with cream | Walderdbeeren mit Sahne",
           "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
-          "prezzo": "7"
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
         },
-                {
+        {
           "nome": "Fragoline Di Bosco Con Gelato",
-          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione": "Wild strawberries with ice cream | Walderdbeeren mit Eis",
           "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
-          "prezzo": "7"
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fragoline Di Bosco Con Zucchero e Limone",
-          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione": "Wild strawberries with sugar and lemon | Walderdbeeren mit Zucker und Zitrone",
           "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
-          "prezzo": "6.5"
+          "prezzo": "6.5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Fragoline Di Bosco Con Liquore Maraschino",
-          "descrizione": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
+          "descrizione": "Wild strawberries with maraschino liqueur | Walderdbeeren mit Maraschino",
           "descrizione-it": "Coppetta di fragoline di bosco fresche con limone o zucchero.",
-          "prezzo": "6.5"
+          "prezzo": "6.5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Panna cotta",
-          "descrizione": "Panna cotta classica servita con caramello o cioccolato.",
+          "descrizione": "Panna cotta | Panna Cotta",
           "descrizione-it": "Panna cotta classica servita con caramello o cioccolato.",
-          "prezzo": "6"
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Tiramisù",
-          "descrizione": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
+          "descrizione": "Tiramisu | Tiramisu",
           "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
-          "prezzo": "6"
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Tiramisù Alle Fragoline",
-          "descrizione": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
+          "descrizione": "Wild strawberries tiramisu | Tiramisu mit Walderdbeeren",
           "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
-          "prezzo": "7"
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Crostata crema e fragoline",
-          "descrizione": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
+          "descrizione": "Wild strawberries tart | Walderdbeeren-Tarta",
           "descrizione-it": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
-          "prezzo": "6"
+          "prezzo": "6",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -346,51 +573,67 @@
       "piatti": [
         {
           "nome": "Acqua Minerale(Naturale o Frizzante)",
-          "descrizione": "Acqua minerale naturale o frizzante.",
+          "descrizione": "Natural or sparkling mineral water | Mineralwasser (still oder sprudelnd)",
           "descrizione-it": "Acqua minerale naturale o frizzante.",
-          "prezzo": "2"
+          "prezzo": "2",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Coca-Cola / Fanta / Sprite",
-          "descrizione": "Selezione di bibite in lattina.",
+          "descrizione": "Selection of canned soft drinks | Auswahl an Dosen-Softdrinks",
           "descrizione-it": "Selezione di bibite in lattina.",
-          "prezzo": "3"
+          "prezzo": "3",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Succo Di Frutta",
-          "descrizione": "Selezione di succo di frutta naturale.",
+          "descrizione": "Fruit juice | Fruchtsaft",
           "descrizione-it": "Selezione di succo di frutta naturale.",
-          "prezzo": "3"
+          "prezzo": "3",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Birra alla spina (Media)",
-          "descrizione": "Birra chiara o scura alla spina.",
+          "descrizione": "Draft beer (medium) | Fassbier (mittel)",
           "descrizione-it": "Birra chiara o scura alla spina.",
-          "prezzo": "5"
+          "prezzo": "5",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Birra alla spina (Grande)",
-          "descrizione": "Birra chiara o scura alla spina.",
+          "descrizione": "Draft beer (large) | Fassbier (groß)",
           "descrizione-it": "Birra chiara o scura alla spina.",
-          "prezzo": "7"
+          "prezzo": "7",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Amaro / Digestivo",
-          "descrizione": "Selezione di amari e digestivi della nostra cantina.",
+          "descrizione": "Digestif | Digestif",
           "descrizione-it": "Selezione di amari e digestivi della nostra cantina.",
-          "prezzo": "4"
+          "prezzo": "4",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Limoncello",
-          "descrizione": "Limoncello della nostra cantina.",
+          "descrizione": "Limoncello liqueur | Zitronenlikör",
           "descrizione-it": "Limoncello della nostra cantina.",
-          "prezzo": "4"
+          "prezzo": "4",
+          "isDisponibile": true,
+          "allergeni": []
         },
         {
           "nome": "Caffe",
-          "descrizione": "Caffè espresso o americano.",
+          "descrizione": "Espresso coffee | Espresso",
           "descrizione-it": "Caffè espresso o americano.",
-          "prezzo": "1.5"
+          "prezzo": "1.5",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     },
@@ -399,8 +642,11 @@
       "piatti": [
         {
           "nome": "Servizio",
-          
-          "prezzo": "2"
+          "descrizione": "Service charge | Servicetaxe",
+          "descrizione-it": "Tassa di servizio.",
+          "prezzo": "2",
+          "isDisponibile": true,
+          "allergeni": []
         }
       ]
     }
