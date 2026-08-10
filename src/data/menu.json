@@ -54,7 +54,7 @@
           "descrizione-it": "Pane tostato con pomodoro, aglio e olio extravergine d'oliva.",
           "prezzo": "2.50",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Bruschetta Al Prosciutto",
@@ -62,7 +62,7 @@
           "descrizione-it": "Pane tostato con prosciutto crudo",
           "prezzo": "3",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Bruschetta Ai Funghi Porcini",
@@ -70,7 +70,7 @@
           "descrizione-it": "Pane tostato con funghi porcini trifolati e prezzemolo.",
           "prezzo": "5",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Bruschetta Semplice",
@@ -91,7 +91,7 @@
           "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
           "prezzo": "6",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [3]
         },
         {
           "nome": "Fiori Di Zucca",
@@ -99,7 +99,7 @@
           "descrizione-it": "Fiori di zucca fritti",
           "prezzo": "6",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [3]
         },
         {
           "nome": "Filetto Di Baccalà",
@@ -107,7 +107,7 @@
           "descrizione-it": "Filetto di baccalà fritto con aglio e limone.",
           "prezzo": "7",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [3]
         }
       ]
     },
@@ -120,7 +120,7 @@
           "descrizione-it": "Fettuccine all'uovo fatte in casa con funghi porcini trifolati.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Fettuccine al cinghiale",
@@ -128,7 +128,7 @@
           "descrizione-it": "Fettuccine fresche con ragù bianco di cinghiale marinato.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Pappardelle alla lepre",
@@ -136,7 +136,7 @@
           "descrizione-it": "Pasta larga all'uovo con sugo di lepre e aromi selvatici.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Boscarelli ai funghi porcini",
@@ -144,7 +144,7 @@
           "descrizione-it": "Pasta corta tipica con crema di porcini e scaglie di pecorino.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Ravioli prosciutto e spinaci",
@@ -152,7 +152,7 @@
           "descrizione-it": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
           "prezzo": "13",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,2]
         },
         {
           "nome": "Riso ai funghi porcini",
@@ -160,7 +160,7 @@
           "descrizione-it": "Risotto mantecato con funghi porcini e burro d'alpeggio.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Fettuccine Pachino e Finferli (Funghi Galletti di stagione)",
@@ -168,7 +168,7 @@
           "descrizione-it": "Pasta fresca con pomodorini Pachino e funghi finferli del bosco.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Fettuccine Alla Gricia con carciofi (stagionale)",
@@ -176,7 +176,7 @@
           "descrizione-it": "La nostra gricia tradizionale arricchita con carciofi freschi saltati.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         },
         {
           "nome": "Fettuccine Gricia",
@@ -184,7 +184,7 @@
           "descrizione-it": "Un classico romano con guanciale croccante, pecorino romano e pepe.",
           "prezzo": "13",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1]
         }
       ]
     },
@@ -301,7 +301,7 @@
           "descrizione-it": "Coda di bue brasata con pomodoro, sedano e carote.",
           "prezzo": "18",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [9]
         },
         {
           "nome": "Piccione Alla Cacciatora",
@@ -338,7 +338,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "8",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Margherita",
@@ -346,7 +346,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "7",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Capricciosa",
@@ -354,7 +354,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "9",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Norcina con Porcini",
@@ -362,7 +362,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "14",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Norcina",
@@ -370,7 +370,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "10",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Boscaiola",
@@ -378,7 +378,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "10",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Funghi Porcini",
@@ -386,7 +386,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "13",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Funghi Champignon",
@@ -394,7 +394,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "9",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Diavola",
@@ -402,7 +402,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "10",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Gorgonzola",
@@ -410,7 +410,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "9",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Quattro Formaggi",
@@ -418,7 +418,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "9",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Melanzane",
@@ -426,7 +426,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "9",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Focaccia",
@@ -434,7 +434,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "4",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Rucola, prosciutto e parmiggiano",
@@ -442,7 +442,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "10",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         },
         {
           "nome": "Contadina (Pomodoro, mozzarella, cipolla e pancetta)",
@@ -450,7 +450,7 @@
           "descrizione-it": "Pizza con pomodoro, mozzarella e basilico.",
           "prezzo": "10",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [1,7]
         }
       ]
     },
@@ -540,7 +540,7 @@
           "descrizione-it": "Panna cotta classica servita con caramello o cioccolato.",
           "prezzo": "6",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [7]
         },
         {
           "nome": "Tiramisù",
@@ -548,7 +548,7 @@
           "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
           "prezzo": "6",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [7]
         },
         {
           "nome": "Tiramisù Alle Fragoline",
@@ -556,7 +556,7 @@
           "descrizione-it": "Il nostro iconico tiramisù con mascarpone e savoiardi.",
           "prezzo": "7",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [7]
         },
         {
           "nome": "Crostata crema e fragoline",
@@ -564,7 +564,7 @@
           "descrizione-it": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
           "prezzo": "6",
           "isDisponibile": true,
-          "allergeni": []
+          "allergeni": [7]
         }
       ]
     },

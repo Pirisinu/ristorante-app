@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nome": "Glutine",
+    "descrizione": "Cereali contenenti glutine (grano, segale, orzo, avena, farro, kamut)",
+    "icona": "/icons/glutine.svg"
+  },
+  {
+    "id": 2,
+    "nome": "Crostacei",
+    "descrizione": "Crostacei e prodotti a base di crostacei",
+    "icona": "/icons/crostacei.svg"
+  },
+  {
+    "id": 3,
+    "nome": "Uova",
+    "descrizione": "Uova e prodotti a base di uova",
+    "icona": "/icons/uova.svg"
+  },
+  {
+    "id": 4,
+    "nome": "Pesce",
+    "descrizione": "Pesce e prodotti a base di pesce",
+    "icona": "/icons/pesce.svg"
+  },
+  {
+    "id": 5,
+    "nome": "Arachidi",
+    "descrizione": "Arachidi e prodotti a base di arachidi",
+    "icona": "/icons/arachidi.svg"
+  },
+  {
+    "id": 6,
+    "nome": "Soia",
+    "descrizione": "Soia e prodotti a base di soia",
+    "icona": "/icons/soia.svg"
+  },
+  {
+    "id": 7,
+    "nome": "Latte",
+    "descrizione": "Latte e prodotti a base di latte (incluso lattosio)",
+    "icona": "/icons/latte.svg"
+  },
+  {
+    "id": 8,
+    "nome": "Frutta a guscio",
+    "descrizione": "Mandorle, nocciole, noci, anacardi, pistacchi, ecc.",
+    "icona": "/icons/frutta-a-guscio.svg"
+  },
+  {
+    "id": 9,
+    "nome": "Sedano",
+    "descrizione": "Sedano e prodotti a base di sedano",
+    "icona": "/icons/sedano.svg"
+  },
+  {
+    "id": 10,
+    "nome": "Senape",
+    "descrizione": "Senape e prodotti a base di senape",
+    "icona": "/icons/senape.svg"
+  },
+  {
+    "id": 11,
+    "nome": "Semi di sesamo",
+    "descrizione": "Semi di sesamo e prodotti a base di semi di sesamo",
+    "icona": "/icons/sesamo.svg"
+  },
+  {
+    "id": 12,
+    "nome": "Anidride solforosa e solfiti",
+    "descrizione": "Anidride solforosa e solfiti (> 10 mg/kg o 10 mg/l)",
+    "icona": "/icons/solfiti.svg"
+  },
+  {
+    "id": 13,
+    "nome": "Lupini",
+    "descrizione": "Lupini e prodotti a base di lupini",
+    "icona": "/icons/lupini.svg"
+  },
+  {
+    "id": 14,
+    "nome": "Molluschi",
+    "descrizione": "Molluschi e prodotti a base di molluschi",
+    "icona": "/icons/molluschi.svg"
+  }
+]
