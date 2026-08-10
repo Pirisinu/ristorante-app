@@ -1,23 +1,15 @@
 import { Container, Row, Col } from 'react-bootstrap'
 
-// Sostituisci con le tue immagini reali in src/assets/
-import img1 from '../assets/gallery_1.jpg'
-import img2 from '../assets/gallery_2.jpg'
-import img3 from '../assets/gallery_3.jpg'
-import img4 from '../assets/gallery_4.jpg'
-import img5 from '../assets/gallery_5.jpg'
-import img6 from '../assets/gallery_6.jpg'
+const imagesMap = import.meta.glob('../assets/*.{jpg,jpeg}', { eager: true, import: 'default' })
+const images = Object.values(imagesMap)
 
 export default function Galleria() {
-  // Array delle immagini per snellire il codice
-  const images = [img1, img2, img3, img4, img5, img6]
-
   return (
     <Container className="py-5">
       <div className="text-center mb-5">
         <h1 className="display-font">La Nostra Galleria</h1>
         <p className="text-muted">
-          Scorci del lago, atmosfere boschive e le nostre specialità di terra.
+          Scorci del lago, atmosfere boschive e le nostre specialità di selvaggina e terra.
         </p>
       </div>
       
