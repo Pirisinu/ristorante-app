@@ -1,0 +1,137 @@
+:root {
+  --color-ink: #1b2620;        /* verde bosco quasi nero, sfondo navbar/footer/hero */
+  --color-ink-soft: #223226;
+  --color-paper: #f4efe2;      /* fondo pagina, carta calda */
+  --color-mustard: #c9962c;    /* accento primario: senape */
+  --color-wine: #7a2e2e;       /* accento secondario: vinaccia, per badge/CTA secondarie */
+  --color-text: #241f16;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Work Sans', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, .display-font {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Navbar */
+.osteria-navbar {
+  background-color: var(--color-ink) !important;
+}
+.osteria-navbar .navbar-brand {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-paper) !important;
+  letter-spacing: 0.02em;
+}
+.osteria-navbar .nav-link {
+  color: rgba(244, 239, 226, 0.85) !important;
+  font-weight: 500;
+}
+.osteria-navbar .nav-link:hover,
+.osteria-navbar .nav-link.active {
+  color: var(--color-mustard) !important;
+}
+
+/* Bottoni */
+.btn-osteria-primary {
+  background-color: var(--color-mustard);
+  border-color: var(--color-mustard);
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.btn-osteria-primary:hover {
+  background-color: #b98726;
+  border-color: #b98726;
+  color: var(--color-ink);
+}
+.btn-osteria-outline {
+  border-color: var(--color-paper);
+  color: var(--color-paper);
+}
+.btn-osteria-outline:hover {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* Hero */
+.hero-section {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  position: relative;
+  overflow: hidden;
+}
+.hero-eyebrow {
+  color: var(--color-mustard);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.hero-title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+}
+
+/* Divisore "timbro" — elemento firma della pagina */
+.stamp-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+.stamp-divider::before,
+.stamp-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(36, 31, 22, 0.2);
+}
+.stamp-divider span {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-wine);
+  white-space: nowrap;
+}
+
+/* Card menu */
+.menu-item {
+  border-bottom: 1px dashed rgba(36, 31, 22, 0.25);
+  padding: 1rem 0;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+.menu-item-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.menu-item-price {
+  font-family: var(--font-display);
+  color: var(--color-wine);
+  font-weight: 600;
+}
+
+.section-paper {
+  background-color: var(--color-paper);
+}
+.section-ink {
+  background-color: var(--color-ink-soft);
+  color: var(--color-paper);
+}
+
+footer.osteria-footer {
+  background-color: var(--color-ink);
+  color: rgba(244, 239, 226, 0.75);
+}
+footer.osteria-footer a {
+  color: var(--color-paper);
+}

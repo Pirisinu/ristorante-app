@@ -1,0 +1,35 @@
+{
+  "categorie": [
+    {
+      "nome": "Antipasti",
+      "piatti": [
+        { "nome": "Bruschetta al pomodoro e basilico", "descrizione": "Pane casereccio, pomodorino datterino, basilico fresco", "prezzo": "8" },
+        { "nome": "Tagliere di salumi e formaggi", "descrizione": "Selezione del territorio, miele e mostarda", "prezzo": "16" },
+        { "nome": "Carpaccio di manzo", "descrizione": "Rucola, scaglie di grana, olio evo", "prezzo": "14" }
+      ]
+    },
+    {
+      "nome": "Primi",
+      "piatti": [
+        { "nome": "Tonnarelli cacio e pepe", "descrizione": "Pasta fresca, pecorino romano DOP", "prezzo": "13" },
+        { "nome": "Risotto ai funghi porcini", "descrizione": "Riso carnaroli, porcini freschi di stagione", "prezzo": "15" },
+        { "nome": "Gnocchi al pomodoro San Marzano", "descrizione": "Gnocchi fatti in casa, basilico", "prezzo": "12" }
+      ]
+    },
+    {
+      "nome": "Secondi",
+      "piatti": [
+        { "nome": "Tagliata di manzo", "descrizione": "Rucola, pomodorini confit, riduzione balsamico", "prezzo": "22" },
+        { "nome": "Branzino al forno", "descrizione": "Patate al rosmarino, olive taggiasche", "prezzo": "20" },
+        { "nome": "Pollo alla cacciatora", "descrizione": "Ricetta della casa, pane casereccio", "prezzo": "16" }
+      ]
+    },
+    {
+      "nome": "Dolci",
+      "piatti": [
+        { "nome": "Tiramisù della casa", "descrizione": "Ricetta tradizionale", "prezzo": "7" },
+        { "nome": "Panna cotta ai frutti di bosco", "descrizione": "Frutti di bosco freschi", "prezzo": "6" }
+      ]
+    }
+  ]
+}
