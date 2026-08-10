@@ -25,7 +25,7 @@ export default function Home() {
         <Container className="py-5">
           <Row className="align-items-center">
             <Col lg={7}>
-              <p className="hero-eyebrow mb-3 text-white">Cucina di stagione, dal 1978</p>
+              <p className="hero-eyebrow mb-3 text-white">Cucina di stagione, dal 1999</p>
               <h1 className="hero-title display-font mb-4 text-white">
                 Sapori del territorio,<br />serviti con calma.
               </h1>
