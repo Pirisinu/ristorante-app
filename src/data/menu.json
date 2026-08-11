@@ -89,7 +89,7 @@
           "nome": "Suppli",
           "descrizione": "Rice croquette with mozzarella and tomato sauce | Reiskroketten mit Mozzarella und Tomatensauce",
           "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
-          "prezzo": "6",
+          "prezzo": "3",
           "isDisponibile": true,
           "allergeni": [3]
         },
@@ -97,7 +97,7 @@
           "nome": "Fiori Di Zucca",
           "descrizione": "Fried courgette flowers | Frittierte Zucchiniblüten",
           "descrizione-it": "Fiori di zucca fritti",
-          "prezzo": "6",
+          "prezzo": "3",
           "isDisponibile": true,
           "allergeni": [3]
         },
@@ -105,7 +105,7 @@
           "nome": "Filetto Di Baccalà",
           "descrizione": "Fried salt cod fillet | Frittiertes Kabeljaufilet",
           "descrizione-it": "Filetto di baccalà fritto con aglio e limone.",
-          "prezzo": "7",
+          "prezzo": "1.5",
           "isDisponibile": true,
           "allergeni": [3]
         }
