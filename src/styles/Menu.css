@@ -1,0 +1,116 @@
+/* =========================================
+   LAYOUT PRINCIPALE & COLORI
+========================================= */
+#menu-container {
+  background-color: #0a0a0a; /* Nero profondo */
+  color: #e0e0e0;
+}
+
+/* Effetto Oro Scintillante Animato */
+.gold-shimmer {
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 4s infinite linear;
+}
+
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+
+.menu-subtitle {
+  letter-spacing: 3px;
+  font-size: 0.85rem;
+}
+
+.menu-title {
+  font-size: 3rem;
+}
+
+/* =========================================
+   ACCORDION & SCORRIMENTO
+========================================= */
+.accordion-item {
+  /* Offset per non nascondere il titolo sotto il bordo superiore quando si apre */
+  scroll-margin-top: 100px; 
+}
+
+.menu-accordion .accordion-button {
+  background-color: transparent !important;
+  color: #bf953f !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(191, 149, 63, 0.3);
+  box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu-accordion .accordion-button:not(.collapsed) {
+  color: #fcf6ba !important;
+  border-bottom: 1px solid #fcf6ba;
+}
+
+.menu-accordion .accordion-button::after {
+  filter: invert(70%) sepia(40%) saturate(600%) hue-rotate(350deg) brightness(90%) contrast(90%);
+}
+
+/* =========================================
+   PIATTI & DIVISORI
+========================================= */
+.menu-product-row {
+  border-bottom: 1px solid rgba(191, 149, 63, 0.15); /* Linea di divisione oro tenue */
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-product-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.menu-item-name {
+  font-family: 'Playfair Display', serif;
+  color: #fcf6ba;
+  letter-spacing: 0.5px;
+}
+
+.menu-desc-it {
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.menu-desc-en {
+  color: #888888;
+  font-family: sans-serif;
+}
+
+.menu-item-price {
+  font-family: 'Playfair Display', serif;
+}
+
+/* =========================================
+   ALLERGENI
+========================================= */
+.allergene-badge {
+  background-color: rgba(191, 149, 63, 0.1) !important;
+  color: #bf953f !important;
+  border: 1px solid rgba(191, 149, 63, 0.4) !important;
+  border-radius: 50% !important;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.allergene-badge:hover {
+  background-color: #bf953f !important;
+  color: #0a0a0a !important;
+}

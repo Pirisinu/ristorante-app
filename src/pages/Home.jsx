@@ -1,44 +1,45 @@
-import { Container, Row, Col, Button, Carousel } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Container, Row, Col, Button, Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import '../styles/Menu.css'; 
 
-// Immagini (da inserire in src/assets/)
-import heroLago from '../assets/sfondo_w_lago.jpg'
-import galleria1 from '../assets/gallery_1.jpg'/*dettaglio-sala.jpg*/
-import galleria2 from '../assets/gallery_2.jpg'/*piatto-cacciagione.jpg*/
-import galleria3 from '../assets/gallery_3.jpg'/*vista-bosco.jpg*/
+// Immagini
+import heroLago from '../assets/sfondo_w_lago.jpg';
+import galleria1 from '../assets/gallery_1.jpg';
+import galleria2 from '../assets/gallery_2.jpg';
+import galleria3 from '../assets/gallery_3.jpg';
 
 export default function Home() {
   return (
     <>
-      {/* Hero Statica */}
+      {/* Hero Dinamica ed Elegante */}
       <section 
-        className="hero-section py-5" 
+        className="hero-section" 
         style={{ 
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${heroLago})`,
+          backgroundImage: `linear-gradient(to bottom, rgba(5,5,5,0.4), rgba(10,10,10,0.9)), url(${heroLago})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          minHeight: '75vh',
+          minHeight: '85vh',
           display: 'flex',
           alignItems: 'center'
         }}
       >
         <Container className="py-5">
           <Row className="align-items-center">
-            <Col lg={7}>
-              <p className="hero-eyebrow mb-3 text-white">Cucina di stagione, dal 1999</p>
+            <Col lg={8} className="fade-in-up">
+              <p className="hero-eyebrow mb-3 gold-shimmer">Dal 1999</p>
               <h1 className="hero-title display-font mb-4 text-white">
-                Sapori del territorio,<br />serviti con calma.
+                L'eleganza del bosco,<br />il respiro del lago.
               </h1>
-              <p className="fs-5 mb-4 text-light" style={{ maxWidth: '38rem', opacity: 0.9 }}>
-                Ingredienti a chilometro zero, pregiata cacciagione e un ambiente che profuma di bosco. 
-                Vi aspettiamo nel cuore del borgo, con vista sul lago.
+              <p className="fs-5 mb-5 text-light fade-in-up delay-1" style={{ maxWidth: '40rem', opacity: 0.85, fontWeight: '300' }}>
+                Un rifugio dove la pregiata cacciagione incontra i sapori autentici della terra. 
+                Prendetevi il vostro tempo, alla vista ci pensiamo noi.
               </p>
-              <div className="d-flex gap-3">
-                <Button as={Link} to="/menu" className="btn-osteria-primary" size="lg">
-                  Guarda il menu
+              <div className="d-flex gap-4 fade-in-up delay-2">
+                <Button as={Link} to="/menu" className="btn-osteria-primary px-4 py-2" size="lg">
+                  Esplora il Menu
                 </Button>
-                <Button as={Link} to="/contatti" variant="outline-light" className="btn-osteria-outline" size="lg">
-                  Come raggiungerci
+                <Button as={Link} to="/contatti" variant="outline-light" className="btn-osteria-outline px-4 py-2" size="lg">
+                  Dove Siamo
                 </Button>
               </div>
             </Col>
@@ -46,29 +47,31 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Carosello - Anteprima Galleria */}
-      <section className="gallery-preview py-5 bg-light">
-        <Container className="py-4">
-          <div className="text-center mb-5">
-            <h2 className="display-font">Atmosfere e Sapori</h2>
-            <p className="text-muted">Un assaggio del nostro rifugio</p>
+      {/* Carosello - Sfondo scuro e zoom morbido */}
+      <section className="gallery-preview py-5 section-paper">
+        <Container className="py-5">
+          <div className="text-center mb-5 fade-in-up">
+            <h2 className="display-font menu-title gold-shimmer">Atmosfere</h2>
+            <p className=" text-uppercase" style={{ letterSpacing: '2px', fontSize: '0.85rem' }}>
+              Un assaggio del nostro rifugio
+            </p>
           </div>
           <Row className="justify-content-center">
-            <Col lg={8}>
-              <Carousel fade className="shadow-sm rounded overflow-hidden mb-4">
+            <Col lg={9} className="fade-in-up delay-1">
+              <Carousel fade indicators={false} className="mb-5">
                 <Carousel.Item>
-                  <img className="d-block w-100" src={galleria1} alt="Gli interni in legno" style={{ height: '450px', objectFit: 'cover' }} />
+                  <img className="d-block w-100" src={galleria1} alt="La nostra sala" style={{ height: '550px', objectFit: 'cover' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img className="d-block w-100" src={galleria2} alt="Specialità di cacciagione" style={{ height: '450px', objectFit: 'cover' }} />
+                  <img className="d-block w-100" src={galleria2} alt="Specialità di cacciagione" style={{ height: '550px', objectFit: 'cover' }} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img className="d-block w-100" src={galleria3} alt="Dettagli del bosco" style={{ height: '450px', objectFit: 'cover' }} />
+                  <img className="d-block w-100" src={galleria3} alt="Vista lago e bosco" style={{ height: '550px', objectFit: 'cover' }} />
                 </Carousel.Item>
               </Carousel>
-              <div className="text-center">
-                <Button as={Link} to="/galleria" variant="dark" size="lg" className="px-5">
-                  Scopri la Galleria
+              <div className="text-center fade-in-up delay-2">
+                <Button as={Link} to="/galleria" className="btn-osteria-primary px-5 py-2" size="lg">
+                  La Galleria Completa
                 </Button>
               </div>
             </Col>
@@ -76,28 +79,34 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Perché Sceglierci */}
-      <section className="section-paper py-5">
-        <Container className="py-4">
-          <div className="stamp-divider text-center mb-5">
-            <span>Perché sceglierci</span>
+      {/* I Nostri Valori - Iconici e Brevi */}
+      <section className="py-5 section-ink">
+        <Container className="py-5">
+          <div className="stamp-divider text-center mb-5 fade-in-up">
+            <span>La Nostra Firma</span>
           </div>
-          <Row className="gy-4 text-center text-md-start">
-            <Col md={4}>
-              <h3 className="h5 display-font">Materie prime locali</h3>
-              <p>Selezioniamo produttori della zona per garantire freschezza e stagionalità in ogni piatto.</p>
+          <Row className="gy-5 text-center text-md-start">
+            <Col md={4} className="feature-box fade-in-up delay-1">
+              <h3 className="h4 display-font feature-title">Cacciagione Scelta</h3>
+              <p className="" style={{ lineHeight: '1.7' }}>
+                Selezioniamo con rigore carni nobili e materie prime di terra, esaltandole con cotture lente e ricette tramandate.
+              </p>
             </Col>
-            <Col md={4}>
-              <h3 className="h5 display-font">Ricette di famiglia</h3>
-              <p>Piatti tramandati da tre generazioni, cucinati ancora oggi come allora.</p>
+            <Col md={4} className="feature-box fade-in-up delay-2">
+              <h3 className="h4 display-font feature-title">Cantina del Territorio</h3>
+              <p className="" style={{ lineHeight: '1.7' }}>
+                Etichette ricercate e vini locali pensati per accompagnare e sgrassare i sapori decisi della nostra cucina.
+              </p>
             </Col>
-            <Col md={4}>
-              <h3 className="h5 display-font">Ambiente accogliente</h3>
-              <p>Una sala raccolta nel cuore del borgo, ideale per cene tranquille o occasioni speciali.</p>
+            <Col md={4} className="feature-box fade-in-up delay-3">
+              <h3 className="h4 display-font feature-title">L'Incanto del Lago</h3>
+              <p className="" style={{ lineHeight: '1.7' }}>
+                Una sala raccolta e intima, immersa nel silenzio della natura, dove il panorama diventa parte dell'esperienza.
+              </p>
             </Col>
           </Row>
         </Container>
       </section>
     </>
-  )
+  );
 }
