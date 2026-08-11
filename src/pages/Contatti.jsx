@@ -13,7 +13,7 @@ export default function Contatti() {
           <h2 className="h4 display-font mb-3">Dove siamo</h2>
           <p>Corso Vittorio Emanuele, 9/11-13, 00074 Nemi Italia</p>
           <p>Tel: <a href="tel:+39 06 936 8048">+39 06 936 8048</a></p>
-          <p>Email: <a href="mailto:info@osteriadelborgo.it">info@osteriadelborgo.it</a></p>
+          <p>Email: <a href="mailto:ramodoro1966@libero.it">ramodoro1966@libero.it</a></p>
           <div className="ratio ratio-4x3 mt-4">
             <iframe
               title="mappa"

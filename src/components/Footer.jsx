@@ -15,8 +15,8 @@ export default function Footer() {
             </h6>
             <p className="mb-0">
               Pranzo: 12:30 – 15:00<br />
-              Cena: 19:00 – 23:30<br />
-              Lunedì chiuso
+              Cena: 19:00 – 22:00<br />
+              Mercoledì chiuso
             </p>
           </Col>
           <Col md={4}>
