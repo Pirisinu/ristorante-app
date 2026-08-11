@@ -89,7 +89,7 @@
           "nome": "Suppli",
           "descrizione": "Rice croquette with mozzarella and tomato sauce | Reiskroketten mit Mozzarella und Tomatensauce",
           "descrizione-it": "Supplì di riso con mozzarella filante e sugo di pomodoro.",
-          "prezzo": "3",
+          "prezzo": "1.5",
           "isDisponibile": true,
           "allergeni": [3]
         },
@@ -97,7 +97,7 @@
           "nome": "Fiori Di Zucca",
           "descrizione": "Fried courgette flowers | Frittierte Zucchiniblüten",
           "descrizione-it": "Fiori di zucca fritti",
-          "prezzo": "3",
+          "prezzo": "2",
           "isDisponibile": true,
           "allergeni": [3]
         },
@@ -105,7 +105,7 @@
           "nome": "Filetto Di Baccalà",
           "descrizione": "Fried salt cod fillet | Frittiertes Kabeljaufilet",
           "descrizione-it": "Filetto di baccalà fritto con aglio e limone.",
-          "prezzo": "1.5",
+          "prezzo": "3",
           "isDisponibile": true,
           "allergeni": [3]
         }
@@ -562,7 +562,7 @@
           "nome": "Crostata crema e fragoline",
           "descrizione": "Wild strawberries tart | Walderdbeeren-Tarta",
           "descrizione-it": "Pasta frolla friabile con crema pasticcera e fragoline di bosco.",
-          "prezzo": "6",
+          "prezzo": "7",
           "isDisponibile": true,
           "allergeni": [7]
         }
@@ -583,14 +583,6 @@
           "nome": "Coca-Cola / Fanta / Sprite",
           "descrizione": "Selection of canned soft drinks | Auswahl an Dosen-Softdrinks",
           "descrizione-it": "Selezione di bibite in lattina.",
-          "prezzo": "3",
-          "isDisponibile": true,
-          "allergeni": []
-        },
-        {
-          "nome": "Succo Di Frutta",
-          "descrizione": "Fruit juice | Fruchtsaft",
-          "descrizione-it": "Selezione di succo di frutta naturale.",
           "prezzo": "3",
           "isDisponibile": true,
           "allergeni": []
@@ -631,7 +623,7 @@
           "nome": "Caffe",
           "descrizione": "Espresso coffee | Espresso",
           "descrizione-it": "Caffè espresso o americano.",
-          "prezzo": "1.5",
+          "prezzo": "2",
           "isDisponibile": true,
           "allergeni": []
         }

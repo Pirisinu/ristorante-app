@@ -19,7 +19,7 @@ export default function Galleria() {
             <div className="ratio ratio-1x1 shadow-sm rounded overflow-hidden">
               <img 
                 src={src} 
-                alt={`Dettaglio osteria ${index + 1}`} 
+                alt={`Dettaglio img ${index + 1}`} 
                 className="w-100 h-100"
                 style={{ 
                   objectFit: 'cover', 
