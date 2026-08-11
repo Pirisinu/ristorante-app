@@ -25,13 +25,9 @@ export default function SiteNavbar() {
             <Nav.Link as={Link} to="/galleria" active={pathname === '/galleria'}>
               Galleria
             </Nav.Link>
-            <Button
-              className="btn-osteria-primary mt-2 mt-lg-0"
-              disabled
-              title="Disponibile nella prossima fase (prenotazioni con backend)"
-            >
+            {/* <Button className="btn-osteria-primary mt-2 mt-lg-0" disabled title="Disponibile nella prossima fase (prenotazioni con backend)">
               Prenota
-            </Button>
+            </Button> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
