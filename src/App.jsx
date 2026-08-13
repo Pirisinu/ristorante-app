@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx'
 import Menu from './pages/Menu.jsx'
 import Contatti from './pages/Contatti.jsx'
 import Galleria from './pages/Galleria.jsx'
+import Vini from './pages/Vini.jsx'
 import Login from './pages/Login.jsx'
 import AreaPersonale from './pages/loggedSections/AreaPersonale.jsx'
 
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/contatti" element={<Contatti />} />
           <Route path="/galleria" element={<Galleria />} />
+          <Route path="/vini" element={<Vini />} />
           <Route path="/accedi" element={<Login />} />
           <Route path="/gestione" element={<AreaPersonale />} />
         </Routes>

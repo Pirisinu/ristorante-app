@@ -36,6 +36,9 @@ export default function SiteNavbar() {
             <Nav.Link as={Link} to="/menu" active={pathname === '/menu'} onClick={handleNavClick}>
               Menu
             </Nav.Link>
+            <Nav.Link as={Link} to="/vini" active={pathname === '/vini'} onClick={handleNavClick}>
+              I nostri vini
+            </Nav.Link>
             <Nav.Link as={Link} to="/contatti" active={pathname === '/contatti'} onClick={handleNavClick}>
               Contatti
             </Nav.Link>

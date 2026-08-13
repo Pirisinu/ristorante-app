@@ -1,0 +1,362 @@
+{
+  "categorie": [
+    {
+      "nome": "Le bollicine",
+      "piatti": [
+        {
+          "nome": "SPUMANTE EXTRA DRY \"BLEND MOI\" - CANTINE FABI",
+          "descrizione": "Giallo paglierino scarico con riflessi verdolini e perlage fine. Al naso note fresche di mela e pera unide a delicati fiori di campo. Al palato è morbido, armonico ed equilibrato, con una piacevole freschezza che bilancia il residuo zuccherino.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "11,5% VOL."
+        },
+        {
+          "nome": "SPUMANTE BRUT ROSÉ \"FIORIONDA\" - EREDI DEI PAPI",
+          "descrizione": "Elegante veste rosa tenue dai riflessi brillanti. Profumo intenso e fragrante di piccoli frutti rossi (lampone, fragolina di bosco) e rosa. In bocca è asciutto, fresco e vibrante, con una spiccata mineralità e una bollicina che accarezza l'anima.",
+          "prezzo": "35.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "PROSECCO DOC \"FALCERI\" BRUT - RIONDO",
+          "descrizione": "Giallo paglierino chiaro con perlage vivace e continuo. Bouquet fine di mela golden, pera, fiori d'arancio e gelsomino. Al palato si rivela secco, fresco, piacevolmente snello e caratterizzato da un'ottima sapidità.",
+          "prezzo": "25.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Veneto",
+          "gradazione": "11,0% VOL."
+        },
+        {
+          "nome": "PROSECCO DOC \"FALCERI\" EXTRA DRY - RIONDO",
+          "descrizione": "Colore giallo paglierino brillante. Olfatto ricco di note di frutta matura e sentori floreali di acacia. In bocca l'attacco è morbido, rotondo e avvolgente; la freschezza smorza la dolcezza offrendo un sorso armonioso e beverino.",
+          "prezzo": "25.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Veneto",
+          "gradazione": "11,0% VOL."
+        },
+        {
+          "nome": "VALDOBBIADENE PROSECCO SUPERIORE DOCG BRUT - CA' SALINA",
+          "descrizione": "Giallo paglierino con riflessi brillanti e spuma fine. Naso di grande eleganza con profumi nitidi di mela verde, agrume fresco e crosta di pane. Asciutto, verticale, sorretto da una vibrante acidità e da una mineralità gessosa.",
+          "prezzo": "28.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Veneto",
+          "gradazione": "11,5% VOL."
+        }
+      ]
+    },
+    {
+      "nome": "I Vini Bianchi",
+      "piatti": [
+        {
+          "nome": "\"BIANCO COLLI\" VERMENTINO LAZIO IGT - CANTINE SILVESTRI",
+          "descrizione": "Giallo paglierino delicato con riflessi verdolini. Note di mela, pera croccante ed erbe della macchia mediterranea. Al palato è brioso, snello e scattante, con una spiccata sapidità marina e un finale minerale.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "\"SCHIETTO\" GRECHETTO LAZIO IGT - EREDI DEI PAPI",
+          "descrizione": "Giallo dorato chiaro e luminoso. Note di pesca, albicocca, mandorla fresca e fiori bianchi. Ottima struttura e corpo, caldo ma ben bilanciato da una viva freschezza, con il tipico finale piacevolmente amarognolo.",
+          "prezzo": "24.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "\"CACCHIONE\" NETTUNO DOC - DIVINA PROVVIDENZA",
+          "descrizione": "Giallo paglierino intenso. Note di frutta gialla matura, scorza d'agrume e spiccati cenni minerali iodati dovuti alla vicinanza del mare. Al palato è pieno, avvolgente, polposo e sorretto da una straordinaria scia sapida.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "\"PEOPLE\" FRASCATI SUPERIORE DOCG - POGGIO LE VOLPI",
+          "descrizione": "Giallo paglierino luminoso. Note di frutta tropicale, melone bianco, fiori di zagara e un tocco di erbe aromatiche. In bocca è morbido, vellutato, accompagnato da una bilanciata freschezza e da una scia minerale vulcanica.",
+          "prezzo": "20.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "\"DE NOTARI\" FRASCATI SUPERIORE DOCG BIOLOGICO - SAN MARCO",
+          "descrizione": "Giallo paglierino con riflessi dorati. Profumi di mela renetta, erbe di campo ed eleganti sfumature di pietra focaia. Al palato è secco, di buona struttura, dritto e pulito, con una freschezza naturale e un finale sapido.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "\"SATRICO\" BIANCO LAZIO IGT - CASALE DEL GIGLIO",
+          "descrizione": "Giallo paglierino brillante. Note agrumate e di frutta tropicale (ananas, passion fruit) che si fondono a cenni di erba tagliata. Al palato è fresco, minerale, scorrevole e di ottima intensità aromatica.",
+          "prezzo": "20.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "RIBOLLA GIALLA VENEZIA GIULIA IGT - REGUTA",
+          "descrizione": "Giallo paglierino scarico con riflessi verdognoli. Piacevolmente floreale con sentori di fiori bianchi, zafferano e mela verde. Si distingue per la spiccata freschezza e acidità citrina, risultando leggero, asciutto e pulito.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Friuli Venezia Giulia",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "SAUVIGNON VENEZIA GIULIA IGT - REGUTA",
+          "descrizione": "Giallo paglierino con riflessi verdolini. Bouquet intenso e varietale ricco di note di foglia di pomodoro, peperone verde, sambuco e pesca bianca. In bocca è aromatico e vibrante, con un finale piacevolmente vegetale.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Friuli Venezia Giulia",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "\"SIBILLA\" LANGHE ARNEIS DOC - AGRICOLA MOLINO",
+          "descrizione": "Giallo paglierino limpido. Fine e delicato, con profumi di pera, pesca, camomilla e fieno selvatico. Al palato è armonico ed elegante, con una buona consistenza e un finale asciutto, sapido e mandorlato.",
+          "prezzo": "24.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Piemonte",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "GEWÜRZTRAMINER TRENTINO DOC - CANTINA I TRAVERSI",
+          "descrizione": "Giallo paglierino carico con riflessi dorati. Profilo olfattivo prorompente ricco di petali di rosa, litchi, frutta tropicale matura e cannella. Al palato è intenso, pieno, di grande morbidezza e dal finale caldo.",
+          "prezzo": "26.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Trentino",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "MÜLLER THURGAU TRENTINO DOC - CANTINA I TRAVERSI",
+          "descrizione": "Giallo paglierino con sfumature verdoline. Profumo fresco con note di erbe officinali, pesca bianca e sentori di pietra focaia alpina. Al palato è sapido, leggero, dall'eccellente mineralità e chiusura dissetante.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Trentino",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "PECORINO TERRE DI CHIETI IGT BIOLOGICO - JASCI & MARCHESANI",
+          "descrizione": "Giallo paglierino intenso. Sentori di frutta esotica, agrumi, salvia e timo. In bocca rivela una struttura importante (quasi da rosso mascherato); è caldo, sapido e sorretto da un'acidità vibrante.",
+          "prezzo": "20.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Abruzzo",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "RIESLING TERRE DI CHIETI IGT BIOLOGICO - JASCI & MARCHESANI",
+          "descrizione": "Giallo paglierino con sfumature verdoline. Profumi freschi di mela verde, lime e gelsomino, che lasciano spazio a leggeri accenni minerali. In bocca è teso, dritto e dalla freschezza tagliente.",
+          "prezzo": "20.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Abruzzo",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "TREBBIANO D'ABRUZZO DOC BIOLOGICO - JASCI & MARCHESANI",
+          "descrizione": "Giallo paglierino chiaro e luminoso. Vantaglio olfattivo fine con note di mela, pera e delicati fiori gialli di campo. Al palato è asciutto, equilibrato, di media struttura, incredibilmente versatile.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Abruzzo",
+          "gradazione": "12,0% VOL."
+        },
+        {
+          "nome": "VERDICCHIO DEI CASTELLI DI JESI DOC CLASSICO - VIGNE DI LEO",
+          "descrizione": "Giallo paglierino con tipiche sfumature verdi. Intenso e pulito, con note di mela verde, biancospino e un caratteristico cenno di mandorla amara. Sapido, minerale, con una chiusura secca e pulita.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Marche",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "GRILLO TERRE SICILIANE IGT - CORTE CAMARI",
+          "descrizione": "Giallo paglierino solare e brillante. Intensa nota di zagara, agrumi, melone e sfumature di rosmarino. Al palato è morbido e rotondo, dotato di una bellissima freschezza fruttata e di una mineralità marina.",
+          "prezzo": "20.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Sicilia",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "\"PRENDAS\" VERMENTINO DI SARDEGNA DOC - CANTINA DI DOLIANOVA",
+          "descrizione": "Giallo paglierino con riflessi verdolini. Bouquet fine con note di frutta a polpa bianca ed erbe spontanee della Sardegna. Al palato è avvolgente, sapido, pieno, con il tipico e piacevole retrogusto amarognolo.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Sardegna",
+          "gradazione": "13,0% VOL."
+        }
+      ]
+    },
+    {
+      "nome": "I Vini Rosati",
+      "piatti": [
+        {
+          "nome": "ROSATO LAZIO IGP - CANTINE FABI",
+          "descrizione": "Rosa scarico e luminoso. Profumi freschi di ciliegia appena colta, melagrana e petali di rosa. Al palato è scattante, fresco e dotato di una piacevole mineralità che rende il sorso scorrevole.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "\"NERUBÈ\" CERASUOLO D'ABRUZZO DOC BIOLOGICO - JASCI & MARCHESANI",
+          "descrizione": "Un Cerasuolo intenso e brillante. Naso potente e vinoso, dominato da amarena, fragola e melagrana. In bocca ha la freschezza di un bianco ma il corpo di un rosso, con un finale sapido di mandorla.",
+          "prezzo": "24.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Abruzzo",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "SUSUMANIELLO ROSATO PUGLIA IGT - POGGIO MARÙ",
+          "descrizione": "Rosa corallo tenue e brillante. Sentori di lamponi, pompelmo rosa e note di macchia mediterranea. Al palato è fresco, morbido, bilanciato da una spiccata acidità e da una scia sapida persistente.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Puglia",
+          "gradazione": "12,5% VOL."
+        }
+      ]
+    },
+    {
+      "nome": "I Vini Rossi",
+      "piatti": [
+        {
+          "nome": "MERLOT LAZIO IGT - CANTINE SILVESTRI",
+          "descrizione": "Rosso rubino intenso con sfumature violacee. Profumi caldi di ciliegia matura, prugna e confettura, con un leggero accenno erbaceo. In bocca è morbido, rotondo, con tannini setosi e levigati.",
+          "prezzo": "18.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,0% VOL."
+        },
+        {
+          "nome": "CESANESE LAZIO IGT - EREDI DEI PAPI",
+          "descrizione": "Rosso rubino carico. Timbro tipico e territoriale con note di marasca, visciola, pepe nero e spezie scure. Al palato ha un ottimo corpo, è caldo ed è sostenuto da un tannino presente ma ben integrato.",
+          "prezzo": "25.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "ROMA DOC ROSSO - DIVINA PROVVIDENZA",
+          "descrizione": "Rosso rubino profondo e impenetrabile. Sentori di frutti di bosco in confettura, liquirizia, vaniglia e note tostate. Al palato è pieno, corposo e avvolgente, con una trama tannica fitta ed elegante.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "\"BACCAROSSA\" LAZIO IGP - POGGIO LE VOLPI",
+          "descrizione": "Rosso rubino scuro dai riflessi granato. Profumi complessi di ciliegia sotto spirito, prugna secca, cacao, tabacco e spezie dolci. Sontuoso, potente e vellutato, con un finale lunghissimo e balsamico.",
+          "prezzo": "30.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "14,5% VOL."
+        },
+        {
+          "nome": "ROMA DOC ROSSO - POGGIO LE VOLPI",
+          "descrizione": "Rosso rubino profondo. Bouquet incentrato su frutti rossi maturi, ciliegia, macchia mediterranea e leggeri cenni di vaniglia. In bocca è rotondo e morbido, con tannini fitti ma setosi.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "14,0% VOL."
+        },
+        {
+          "nome": "SHIRAZ LAZIO IGT - CASALE DEL GIGLIO",
+          "descrizione": "Rosso rubino intenso dalle sfumature violacee. Caratterizzato da note speziate di pepe nero, cannella e chiodi di garofano, unite a mirtilli.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "BARBERA D'ASTI DOCG - AGRICOLA MOLINO",
+          "descrizione": "Rosso rubino brillante tendente al granato. Note nette di ciliegia, mora e prugna fresca. Spicca per la sua straordinaria freschezza, è asciutto, di buon corpo e privo di asperità tanniche.",
+          "prezzo": "24.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Piemonte",
+          "gradazione": "13,5% VOL."
+        },
+        {
+          "nome": "\"NERUBÈ\" MONTEPULCIANO D'ABRUZZO DOC BIOLOGICO - JASCI & MARCHESANI",
+          "descrizione": "Rosso rubino intenso e compatto. Profumi eleganti di amarena, mora selvatica, liquirizia e radice di genziana. Il sorso è pieno e caldo, sorretto da una trama tannica vigorosa ma ben levigata dal legno.",
+          "prezzo": "24.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Abruzzo",
+          "gradazione": "14,0% VOL."
+        },
+        {
+          "nome": "PRIMITIVO DI MANDURIA DOP - POGGIO MARÙ",
+          "descrizione": "Rosso rubino intenso tendente al violaceo. Note di prugne e fichi secchi, confettura di amarena, cioccolato e vaniglia. Al palato è caldo, avvolgente, quasi dolce per la grande morbidezza del frutto.",
+          "prezzo": "22.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Puglia",
+          "gradazione": "14,0% VOL."
+        },
+        {
+          "nome": "SUSUMANIELLO PUGLIA IGP - POGGIO MARÙ",
+          "descrizione": "Rosso rubino cupo. Note di mirtillo, ribes, cenni floreali di viola e una caratteristica nota di grafite. In bocca è fresco, dal tannino fine e di ottima sapidità, elegante e dinamico.",
+          "prezzo": "25.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Puglia",
+          "gradazione": "14,0% VOL."
+        }
+      ]
+    },
+    {
+      "nome": "Vini della Casa... dal Territorio",
+      "piatti": [
+        {
+          "nome": "\"DIANA DEL BOSCO\" BIANCO LAZIO IGT - CANTINE FABI",
+          "descrizione": "Nasce da un blend di vitigni tipici del territorio, in prevalenza Malvasia di Candia e Trebbiano Toscano. Colore giallo paglierino luminoso. Al naso è fresco, agrumato e fragrante. Emergono note nitide di frutta a polpa bianca (pesca, mela verde, pera) accompagnate da delicati sentori floreali di biancospino e una sfumatura di mandorla fresca sul finale. Spicca per la sua spiccata freschezza e la vibrante acidità, ben bilanciata da una piacevole sapidità minerale tipica dei suoli vulcanici della zona.",
+          "prezzo": "12.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "12,5% VOL."
+        },
+        {
+          "nome": "\"REX NEMORENSIS\" ROSSO LAZIO IGT - CANTINE FABI",
+          "descrizione": "Un blend che unisce la struttura e la territorialità del Cesanese e del Montepulciano, spesso ammorbiditi da una quota di Sangiovese. Colore rosso rubino con riflessi violacei. Il bouquet è intenso e dominato dai frutti rossi freschi. Si riconoscono note di ciliegia, lampone e piccoli frutti di bosco, arricchite da una leggera e piacevole speziatura di pepe nero sul finale. In bocca si presenta succoso, snello e molto equilibrato. Il tannino è morbido e non aggressivo, supportato da una buona freschezza.",
+          "prezzo": "12.00",
+          "isDisponibile": true,
+          "allergeni": [],
+          "regione": "Lazio",
+          "gradazione": "12,5% VOL."
+        }
+      ]
+    }
+  ]
+}
