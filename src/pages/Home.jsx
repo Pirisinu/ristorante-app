@@ -4,9 +4,9 @@ import '../styles/Menu.css';
 
 // Immagini
 import heroLago from '../assets/sfondo_w_lago.jpg';
-import galleria1 from '../assets/gallery_1.jpg';
-import galleria2 from '../assets/gallery_2.jpg';
-import galleria3 from '../assets/gallery_3.jpg';
+import galleria1 from '../assets/gallery_4.jpg';
+import galleria2 from '../assets/gallery_5.jpg';
+import galleria3 from '../assets/gallery_6.jpg';
 
 export default function Home() {
   return (

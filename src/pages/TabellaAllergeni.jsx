@@ -12,18 +12,13 @@ export default function TabellaAllergeni() {
   return (
     <>
       {/* Pulsante di attivazione - puoi posizionarlo dove preferisci nel Menu */}
-      <Button 
-        variant="outline-secondary" 
-        size="sm" 
-        onClick={handleShow} 
-        className="mb-4 text-uppercase letter-spacing-1"
-      >
+      <Button variant="outline-secondary" size="sm" onClick={handleShow} className="mb-4 text-uppercase letter-spacing-1">
         Informativa Allergeni
       </Button>
 
       <Modal show={show} onHide={handleClose} size="lg" centered scrollable>
         <Modal.Header closeButton className="border-bottom-0 pb-0">
-          <Modal.Title className="display-font h3 w-100 text-center" style={{ color: '#4A5D23' }}>
+          <Modal.Title className="display-font h3 w-100 text-center">
             Tabella degli Allergeni
           </Modal.Title>
         </Modal.Header>
@@ -35,11 +30,8 @@ export default function TabellaAllergeni() {
           
           <ListGroup variant="flush">
             {allergeniData.map((allergene) => (
-              <ListGroup.Item 
-                key={allergene.id} 
-                className="d-flex align-items-start border-bottom py-3 bg-transparent"
-              >
-                <div className="fw-bold me-3 fs-5" style={{ minWidth: '30px', color: '#4A5D23' }}>
+              <ListGroup.Item key={allergene.id} className="d-flex align-items-start border-bottom py-3 bg-transparent">
+                <div className="fw-bold me-3 fs-5">
                   {allergene.id}.
                 </div>
                 <div>

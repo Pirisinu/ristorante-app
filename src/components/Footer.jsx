@@ -6,7 +6,7 @@ export default function Footer() {
       <Container>
         <Row className="gy-4">
           <Col md={4}>
-            <h5 className="display-font text-white">Il Ramo D'oro</h5>
+            <h5 className="display-font gold-shimmer">Il Ramo D'oro</h5>
             <p className="mb-0">Corso Vittorio Emanuele, 9/11-13,<br />00074 Nemi Italia</p>
           </Col>
           <Col md={4}>
@@ -25,9 +25,7 @@ export default function Footer() {
             </h6>
             <p className="mb-0">
               <a href="tel:+39 06 936 8048" className="text-decoration-none">+39 06 936 8048</a><br />
-              <a href="mailto:ramodoro1966@libero.it" className="text-decoration-none">
-                ramodoro1966@libero.it
-              </a>
+              <a href="mailto:ramodoro1966@libero.it" className="text-decoration-none">ramodoro1966@libero.it</a>
             </p>
           </Col>
         </Row>

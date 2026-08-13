@@ -31,7 +31,7 @@ export default function Menu() {
           <p className="text-uppercase mb-1 menu-subtitle fw-bold">
             La Tradizione
           </p>
-          <h1 className="display-font mb-4 menu-title">
+          <h1 className="display-font mb-4 menu-title gold-shimmer">
             Il Nostro Menu
           </h1>
           <TabellaAllergeni />
@@ -60,23 +60,22 @@ export default function Menu() {
                             <div className="pe-4">
                               <h4 className="menu-item-name h5 mb-2">{piatto.nome}</h4>
                               
-                              <div className="small mb-1 menu-desc-it">
+                              {/* <div className="small mb-1 menu-desc-it">
                                 {piatto['descrizione-it']}
-                              </div>
+                              </div> */}
                               <div className="small fst-italic mb-2 menu-desc-en">
                                 {piatto.descrizione}
                               </div>
 
                               {piatto.allergeni && piatto.allergeni.length > 0 && (
-                                <div className="d-flex gap-1 mt-2">
+                                <div className="d-flex flex-wrap gap-2 mt-2">
                                   {piatto.allergeni.map(id => (
-                                    <OverlayTrigger
-                                      key={id}
-                                      placement="top"
-                                      overlay={<Tooltip>{getAllergeneName(id)}</Tooltip>}
+                                    <span 
+                                      key={id} 
+                                      className="badge bg-secondary fw-normal rounded-pill px-2 py-1"
                                     >
-                                      <span className="allergene-badge">{id}</span>
-                                    </OverlayTrigger>
+                                      {getAllergeneName(id)}
+                                    </span>
                                   ))}
                                 </div>
                               )}

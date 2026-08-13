@@ -4,8 +4,7 @@ export default function Contatti() {
   return (
     <Container className="py-5">
       <div className="text-center mb-5">
-        <p className="hero-eyebrow">Contatti</p>
-        <h1 className="display-font">Vieni a trovarci</h1>
+        <h1 className="display-font gold-shimmer">Vieni a trovarci</h1>
       </div>
 
       <Row className="gy-5">
