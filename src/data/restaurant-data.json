@@ -1,0 +1,25 @@
+{
+  "restaurantName": "Il Ramo d'Oro",
+  
+  "address":{
+    "street": "Corso Vittorio Emanuele, 9/11-13",
+    "city": "Nemi",
+    "zip": "00074",
+    "country": "Italia"
+  },
+  "contact":{
+    "phone": "+39 06 936 8048",
+    "email": "ramodoro1966@libero.it"
+  },
+  "openingHours":{
+    "lunch": {
+      "hours": "12:00 - 15:00"
+    },
+    "dinner": {
+      "hours": "19:00 - 23:00"
+    },
+    "closed": {
+      "days": ["Wednesday"]
+    }
+  }
+}
