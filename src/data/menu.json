@@ -152,7 +152,7 @@
           "descrizione-it": "Ravioli fatti in casa ripieni di ricotta, spinaci e prosciutto.",
           "prezzo": "13",
           "isDisponibile": true,
-          "allergeni": [1,2]
+          "allergeni": [1,7]
         },
         {
           "nome": "Riso ai funghi porcini",
