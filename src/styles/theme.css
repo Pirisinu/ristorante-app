@@ -175,3 +175,26 @@ footer.osteria-footer a {
 footer.osteria-footer a:hover {
   color: var(--color-wine);
 }
+
+.site-notice-banner {
+  position: relative;
+}
+
+.site-notice-modal-content {
+  color: var(--color-text);
+  background-color: var(--color-ink-soft);
+  border: 1px solid rgba(201, 168, 76, 0.5);
+}
+
+.site-notice-modal-content .modal-header,
+.site-notice-modal-content .modal-footer {
+  border-color: rgba(201, 168, 76, 0.2);
+}
+
+.site-notice-modal-content .modal-title {
+  color: var(--color-mustard);
+}
+
+.site-notice-modal-body {
+  white-space: pre-line;
+}

@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Row, Col, Button, Card, Badge, ButtonGroup } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card, Badge } from 'react-bootstrap';
 
 export default function AreaPersonale() {
   const navigate = useNavigate();
   
-  // Inizializza il ruolo con il valore della sessione, oppure usa 'STAFF' come sicurezza
-  const [ruolo, setRuolo] = useState(sessionStorage.getItem('ruolo') || 'STAFF'); 
+  const [ruolo] = useState(sessionStorage.getItem('ruolo') || 'STAFF');
 
   useEffect(() => {
     const isAutenticato = sessionStorage.getItem('autenticato');
@@ -21,56 +20,78 @@ export default function AreaPersonale() {
     navigate('/accedi');
   };
 
-  // Tutte le funzionalità future, categorizzate e protette per ruolo
   const funzionalita = [
     {
-      titolo: "Gestione Sala e Prenotazioni",
-      descrizione: "Visualizza i tavoli, gestisci le prenotazioni in arrivo e la disposizione in sala.",
-      azione: "Mappa Tavoli",
-      link: "/gestione/sala",
-      ruoliPermessi: ['ADMIN', 'MANAGER', 'STAFF']
+      titolo: "Gestione Prenotazioni",
+      descrizione: "Registra le prenotazioni con data, orario, numero di persone, recapiti e stato.",
+      azione: "Gestisci prenotazioni",
+      link: "/gestione/prenotazioni",
+      ruoliPermessi: ['ADMIN'],
+      attiva: true
     },
     {
       titolo: "Menu e Disponibilità",
       descrizione: "Segna le portate esaurite o aggiorna le specialità di cacciagione del giorno in tempo reale.",
       azione: "Gestisci Menu",
       link: "/gestione/menu",
-      ruoliPermessi: ['ADMIN', 'MANAGER']
+      ruoliPermessi: ['ADMIN', 'MANAGER'],
+      attiva: false
     },
     {
       titolo: "Cantina Vini",
       descrizione: "Aggiorna le etichette, le annate e le giacenze della nostra selezione del territorio.",
       azione: "Gestisci Cantina",
       link: "/gestione/cantina",
-      ruoliPermessi: ['ADMIN', 'MANAGER']
+      ruoliPermessi: ['ADMIN', 'MANAGER'],
+      attiva: false
     },
     {
       titolo: "Ordini e Comande",
       descrizione: "Inserisci o modifica le comande attive e invia gli ordini direttamente in cucina.",
       azione: "Apri Comande",
       link: "/gestione/comande",
-      ruoliPermessi: ['ADMIN', 'MANAGER', 'STAFF']
+      ruoliPermessi: ['ADMIN', 'MANAGER', 'STAFF'],
+      attiva: false
     },
     {
       titolo: "Impostazioni Sito web",
       descrizione: "Aggiorna le foto della galleria, gli avvisi in homepage e gli orari di apertura stagionali.",
       azione: "Impostazioni Pubbliche",
       link: "/gestione/sito",
-      ruoliPermessi: ['ADMIN']
+      ruoliPermessi: ['ADMIN'],
+      attiva: false
     },
     {
       titolo: "Risorse Umane",
       descrizione: "Gestisci gli accessi dello staff, i turni settimanali e i permessi del sistema.",
       azione: "Gestisci Staff",
       link: "/gestione/utenti",
-      ruoliPermessi: ['ADMIN']
+      ruoliPermessi: ['ADMIN'],
+      attiva: false
     },
     {
       titolo: "Analisi e Report",
       descrizione: "Visualizza le statistiche di vendita, i piatti più richiesti e l'andamento stagionale.",
       azione: "Visualizza Dati",
       link: "/gestione/statistiche",
-      ruoliPermessi: ['ADMIN']
+      ruoliPermessi: ['ADMIN'],
+      attiva: false
+    },
+    {
+      titolo: "Rubrica interna",
+      descrizione: "Salva e consulta i contatti di clienti e fornitori per la gestione interna.",
+      azione: "Gestisci contatti",
+      link: "/gestione/contatti",
+      ruoliPermessi: ['ADMIN'],
+      attiva: true
+    },
+    {
+      titolo: "Banner del sito",
+      descrizione: "Pubblica o disattiva avvisi in homepage, ad esempio per ferie e chiusure.",
+      azione: "Gestisci banner",
+      link: "/gestione/banner",
+      ruoliPermessi: ['ADMIN'],
+      attiva: true
     }
   ];
 
@@ -79,16 +100,6 @@ export default function AreaPersonale() {
 
   return (
     <Container className="py-5" style={{ minHeight: '85vh' }}>
-      
-      {/* SIMULATORE DI RUOLO (Rimuovere in produzione) */}
-      <div className="mb-5 p-3 rounded" style={{ border: '1px dashed rgba(201, 168, 76, 0.4)', backgroundColor: 'rgba(5,5,5,0.3)' }}>
-        <p className="text-muted small mb-2 text-uppercase letter-spacing-1">Simulatore Ruolo (Solo Dev):</p>
-        <ButtonGroup>
-          <Button variant={ruolo === 'ADMIN' ? 'outline-light' : 'dark'} onClick={() => setRuolo('ADMIN')} style={{ borderColor: '#c9a84c' }}>Proprietario (Admin)</Button>
-          <Button variant={ruolo === 'MANAGER' ? 'outline-light' : 'dark'} onClick={() => setRuolo('MANAGER')} style={{ borderColor: '#c9a84c' }}>Maitre (Manager)</Button>
-          <Button variant={ruolo === 'STAFF' ? 'outline-light' : 'dark'} onClick={() => setRuolo('STAFF')} style={{ borderColor: '#c9a84c' }}>Sala (Staff)</Button>
-        </ButtonGroup>
-      </div>
       
       {/* Intestazione */}
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-center border-bottom pb-4 mb-5" style={{ borderColor: 'rgba(201, 168, 76, 0.2)' }}>
@@ -115,9 +126,11 @@ export default function AreaPersonale() {
               style={{ 
                 border: '1px solid rgba(201, 168, 76, 0.3)', 
                 borderRadius: '8px',
-                transition: 'transform 0.3s ease, box-shadow 0.3s ease'
+                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                opacity: item.attiva ? 1 : 0.65
               }}
               onMouseEnter={(e) => {
+                if (!item.attiva) return;
                 e.currentTarget.style.transform = 'translateY(-5px)';
                 e.currentTarget.style.boxShadow = '0 10px 20px rgba(0,0,0,0.4)';
               }}
@@ -127,17 +140,24 @@ export default function AreaPersonale() {
               }}
             >
               <Card.Body className="d-flex flex-column p-4">
+                {!item.attiva && (
+                  <div className="mb-2">
+                    <Badge bg="secondary">Non disponibile</Badge>
+                  </div>
+                )}
                 <Card.Title className="display-font mb-3" style={{ color: '#c9a84c', fontSize: '1.5rem' }}>
                   {item.titolo}
                 </Card.Title>
                 <Card.Text style={{ color: '#e0e0e0', opacity: 0.85, flexGrow: 1 }}>
                   {item.descrizione}
                 </Card.Text>
-                <Button 
+                <Button
                   className="btn-osteria-primary w-100 mt-3"
-                  onClick={() => console.log(`Naviga a: ${item.link}`)}
+                  disabled={!item.attiva}
+                  aria-label={item.attiva ? item.azione : `${item.titolo}: non disponibile`}
+                  onClick={item.attiva ? () => navigate(item.link) : undefined}
                 >
-                  {item.azione}
+                  {item.attiva ? item.azione : 'Non disponibile'}
                 </Button>
               </Card.Body>
             </Card>
